@@ -27,12 +27,12 @@ const HeroSection = () => {
 						duration: 0.6,
 					}}
 					className="z-50 flex flex-col justify-center items-center">
-					<motion.p className=" font-medium text-xl md:text-6xl text-center bg-clip-text text-white bg-gradient-to-b from-neutral-50 to-neutral-400 py-4">
+					<motion.p className=" font-medium text-2xl sm:text-3xl md:text-6xl text-center bg-clip-text text-white bg-gradient-to-b from-neutral-50 to-neutral-400 py-4">
 						Get a Designer <br /> Space You'll Love
 					</motion.p>
-					<button className="px-4 py-2 backdrop-blur-sm border bg-blue-300/10 border-blue-500/20 text-white mx-auto text-center rounded-full relative mt-4">
-						<span>Know More →</span>
-						<div className="absolute inset-x-0  h-px -bottom-px bg-gradient-to-r w-3/4 mx-auto from-transparent via-blue-500 to-transparent" />
+					<button className="px-4 py-2 backdrop-blur-sm border bg-red-300/10 border-red-500/20 text-white mx-auto text-center rounded-full relative mt-4">
+						<span>Explore More →</span>
+						<div className="absolute inset-x-0  h-px -bottom-px bg-gradient-to-r w-3/4 mx-auto from-transparent via-red-500 to-transparent" />
 					</button>
 				</motion.div>
 			</ImagesSlider>

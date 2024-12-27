@@ -4,7 +4,7 @@ import { LayoutGrid } from "./ui/layout-grid";
 
 export default function Projects() {
   return (
-    (<div className="h-screen py-20 w-full">
+    (<div className="h-screen min-h-96 w-full">
       <LayoutGrid cards={cards} />
     </div>)
   );
