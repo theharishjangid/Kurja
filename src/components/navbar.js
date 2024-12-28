@@ -6,20 +6,21 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { IoMenu, IoClose } from "react-icons/io5";
 import { navigationLinks } from "../constants";
+import PrimaryButton from "./primarybutton";
 
 const Navbar = () => {
 	const pathname = usePathname();
 	const [showMenu, setShowMenu] = useState(false);
 	return (
-        <header className="bg-white sticky top-0 z-[200]">
+        <header className="bg-white sticky top-0 z-[200] shadow-xl">
             <nav className="container mx-auto flex justify-between items-center p-2">
 			<Link href="/">
 				<Image
-					src="/logo.webp"
+					src="/logo.png"
 					alt="Logo"
-					width={200}
+					width={244}
 					height={100}
-					className="w-16 h-8"
+					className="w-20"
 				/>
 			</Link>
 			<div className="hidden sm:block font-light">
@@ -36,7 +37,7 @@ const Navbar = () => {
 					</Link>
 				))}
 			</div>
-			<button className="hidden sm:block px-8 py-2  bg-red-500 text-white text-sm rounded-md font-semibold hover:bg-red-600 hover:shadow-lg">
+			<button className="hidden sm:block px-8 py-2  bg-gradient-to-r to-orange-300 via-red-400 from-red-600 text-white text-sm rounded-md font-semibold hover:bg-red-600 hover:shadow-lg">
 				Hire Us
 			</button>
 			<IoMenu
@@ -44,7 +45,7 @@ const Navbar = () => {
 				onClick={() => setShowMenu(!showMenu)}
 			/>
 			<div
-				className={`z-50 fixed right-0 top-0 p-2 h-screen bg-white w-2/3 flex flex-col justify-between shadow-xl ${
+				className={`z-50 fixed right-0 top-0 p-2 h-screen bg-white w-2/3 flex flex-col justify-between ${
 					showMenu ? "sm:block" : "hidden"
 				}`}>
 				<div className="flex flex-col">
