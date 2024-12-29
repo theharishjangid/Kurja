@@ -3,14 +3,16 @@ import { HiMiniPaintBrush, HiBuildingOffice2 } from "react-icons/hi2";
 
 export default function StrategySection() {
 	return (
-		<section className="container mx-auto flex flex-col items-center py-10 md:py-14">
+        <section className="bg-stone-100">
+
+		<div className="container mx-auto flex flex-col items-center py-10 md:py-14">
 			<h1 className="text-2xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r to-yellow-600 via-orange-300 from-red-800 inline-block">
 				Where Process Meets Perfection
 			</h1>
 
-			<div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8 lg:gap-12">
+			<div className="mt-10 mx-4 grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8 lg:gap-12">
 				<div className="text-center space-y-4">
-					<div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-neutral-100">
+					<div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-neutral-200 border border-neutral-300">
 						<Image
 							src="/search.png"
 							alt="Logo"
@@ -29,7 +31,7 @@ export default function StrategySection() {
 					</p>
 				</div>
 				<div className="text-center space-y-4">
-					<div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-neutral-100">
+					<div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-neutral-200 border border-neutral-300">
 						<Image
 							src="/design.png"
 							alt="Logo"
@@ -48,7 +50,7 @@ export default function StrategySection() {
 					</p>
 				</div>
 				<div className="text-center space-y-4">
-					<div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-neutral-100">
+					<div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-neutral-200 border border-neutral-300">
 						<Image
 							src="/deliver.png"
 							alt="Logo"
@@ -67,6 +69,7 @@ export default function StrategySection() {
 					</p>
 				</div>
 			</div>
-		</section>
+		</div>
+        </section>
 	);
 }

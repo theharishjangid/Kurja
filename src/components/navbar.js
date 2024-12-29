@@ -11,7 +11,7 @@ const Navbar = () => {
 	const pathname = usePathname();
 	const [showMenu, setShowMenu] = useState(false);
 	return (
-		<header className="bg-white sticky top-0 z-[200] shadow-xl">
+		<header className="bg-white sticky top-0 z-[200] shadow-lg">
 			<nav className="container mx-auto flex justify-between items-center p-2">
 				<Link href="/">
 					<Image

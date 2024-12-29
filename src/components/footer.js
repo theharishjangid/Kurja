@@ -10,7 +10,7 @@ const Footer = () => {
 	const currentDate = new Date();
 	const currentYear = currentDate.getFullYear();
 	return (
-		<footer className="bg-neutral-200 mt-10 py-2 sm:py-4">
+		<footer className="bg-neutral-200 mt-10 md:mt-16 py-2 sm:py-4">
 			<div className="container mx-auto flex justify-between sm:items-end flex-col sm:flex-row">
 				<Link href="/">
 					<Image
