@@ -100,7 +100,7 @@ export const AnimatedTestimonials = ({
               duration: 0.2,
               ease: "easeInOut",
             }}>
-            <h3 className="text-2xl dark:text-white text-black">
+            <h3 className="text-2xl text-transparent bg-clip-text bg-gradient-to-r from-green-800 via-green-600 to-lime-500">
               {testimonials[active].name}
             </h3>
             <p className="text-sm text-gray-500 dark:text-neutral-500">
@@ -134,15 +134,15 @@ export const AnimatedTestimonials = ({
           <div className="flex gap-4 pt-12 md:pt-0">
             <button
               onClick={handlePrev}
-              className="h-7 w-7 rounded-full bg-red-50 dark:bg-neutral-800 flex items-center justify-center group/button">
+              className="h-7 w-7 rounded-full bg-gradient-to-r to-orange-300 via-red-400 from-red-600 flex items-center justify-center group/button shadow-lg opacity-80">
               <IconArrowLeft
-                className="h-5 w-5 text-red-500 dark:text-neutral-400 group-hover/button:rotate-12 transition-transform duration-300" />
+                className="h-5 w-5 text-white group-hover/button:rotate-20 transition-transform duration-300" />
             </button>
             <button
               onClick={handleNext}
-              className="h-7 w-7 rounded-full bg-red-50 dark:bg-neutral-800 flex items-center justify-center group/button">
+              className="h-7 w-7 rounded-full bg-gradient-to-r from-orange-300 via-red-400 to-red-600 flex items-center justify-center group/button shadow-lg opacity-80">
               <IconArrowRight
-                className="h-5 w-5 text-red-500 dark:text-neutral-400 group-hover/button:-rotate-12 transition-transform duration-300" />
+                className="h-5 w-5 text-white group-hover/button:-rotate-20 transition-transform duration-300" />
             </button>
           </div>
         </div>
