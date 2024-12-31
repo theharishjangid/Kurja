@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function JourneySection() {
 	return (
 		<section className="container mx-auto px-4 py-10 md:py-16 flex flex-col">
-			<h1 className="mb-7 lg:mb-10 self-center text-2xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r to-yellow-600 via-orange-300 from-red-800">
-				Our Journey
+			<h1 className="mb-7 lg:mb-10 self-center text-2xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r to-orange-300 via-red-400 from-red-600">
+			Where Innovation Meets Legacy
 			</h1>
 			<div className="grid md:grid-cols-2 gap-8 items-center">
 				<div className="space-y-8 flex flex-col mx-4">

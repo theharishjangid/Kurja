@@ -6,11 +6,8 @@ export default function AboutSection() {
 		<section className="container mx-auto px-4 py-10 md:py-16">
 			<div className="grid gap-12 lg:grid-cols-2 lg:gap-16 items-center">
 				<div className="relative m-4">
-					{/* Golden frame border */}
 					<div className="absolute inset-0 rounded-xl border-2 border-amber-700 transform translate-x-4 translate-y-4 -z-10" />
-
-					{/* Main image */}
-					<div className="relative bg-black/5 rounded-xl overflow-hidden">
+					<div className="relative bg-black/5 rounded-xl overflow-hidden shadow-lg">
 						<Image
 							src="/about.jpg"
 							alt="Luxury living website displayed on laptop"

@@ -6,7 +6,7 @@ export default function StrategySection() {
         <section className="bg-neutral-100">
 
 		<div className="container mx-auto flex flex-col items-center py-10 md:py-14">
-			<h1 className="text-2xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r to-yellow-600 via-orange-300 from-red-800 inline-block">
+			<h1 className="text-2xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r to-orange-300 via-red-400 from-red-600 inline-block">
 				Where Process Meets Perfection
 			</h1>
 
@@ -18,7 +18,7 @@ export default function StrategySection() {
 							alt="Logo"
 							width={200}
 							height={200}
-							className="w-12 h-12 text-amber-700"
+							className="w-12 h-12 text-amber-600"
 						/>
 					</div>
 					<h4 className="text-xl md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-green-800 via-green-600 to-lime-500">
@@ -37,7 +37,7 @@ export default function StrategySection() {
 							alt="Logo"
 							width={200}
 							height={200}
-							className="w-12 h-12 text-amber-700"
+							className="w-12 h-12 text-amber-600"
 						/>
 					</div>
 					<h4 className="text-xl md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-green-800 via-green-600 to-lime-500">
@@ -56,7 +56,7 @@ export default function StrategySection() {
 							alt="Logo"
 							width={200}
 							height={200}
-							className="w-12 h-12 text-amber-700"
+							className="w-12 h-12 text-amber-600"
 						/>
 					</div>
 					<h4 className="text-xl md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-green-800 via-green-600 to-lime-500">
