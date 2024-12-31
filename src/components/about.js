@@ -28,7 +28,7 @@ export default function AboutSection() {
 
 					<p className="text-gray-500">
 						At <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-800 via-green-600 to-lime-500">Kurja Interior Space</span>, we believe that success lies in more than just
-						aesthetics — it&apos;s about creating spaces that
+						aesthetics — it's about creating spaces that
 						captivate and inspire, resonating deeply with your
 						unique vision and lifestyle. With a passion for
 						innovation and an eye for detail, we specialize in

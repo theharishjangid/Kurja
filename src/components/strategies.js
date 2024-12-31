@@ -3,7 +3,7 @@ import { HiMiniPaintBrush, HiBuildingOffice2 } from "react-icons/hi2";
 
 export default function StrategySection() {
 	return (
-        <section className="bg-stone-100">
+        <section className="bg-neutral-100">
 
 		<div className="container mx-auto flex flex-col items-center py-10 md:py-14">
 			<h1 className="text-2xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r to-yellow-600 via-orange-300 from-red-800 inline-block">

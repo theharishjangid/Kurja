@@ -61,12 +61,12 @@ export default function CoreTeam() {
                 <div className="">
                   <motion.h3
                     layoutId={`title-${active.title}-${id}`}
-                    className="font-medium text-transparent bg-clip-text bg-gradient-to-r to-yellow-600 via-orange-300 from-red-800 text-lg">
+                    className="font-medium text-transparent bg-clip-text bg-gradient-to-r from-green-800 via-green-600 to-lime-500 text-lg">
                     {active.title}
                   </motion.h3>
                   <motion.p
                     layoutId={`description-${active.description}-${id}`}
-                    className="text-transparent bg-clip-text bg-gradient-to-r from-green-800 via-green-600 to-lime-500 text-sm">
+                    className="text-gray-500 text-sm">
                     {active.description}
                   </motion.p>
                 </div>
@@ -116,7 +116,7 @@ export default function CoreTeam() {
             <div className="flex justify-center items-center flex-col">
               <motion.h3
                 layoutId={`title-${card.title}-${id}`}
-                className="font-medium text-transparent bg-clip-text bg-gradient-to-r to-yellow-600 via-orange-300 from-red-800 text-center md:text-left text-lg">
+                className="font-medium text-transparent bg-clip-text bg-gradient-to-r from-green-800 via-green-600 to-lime-500 text-center md:text-left text-lg">
                 {card.title}
               </motion.h3>
               <motion.p
