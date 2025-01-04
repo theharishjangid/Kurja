@@ -14,14 +14,14 @@ const SkeletonOne = () => {
 	return (
 		<div>
 			<p className="font-bold md:text-4xl text-xl text-white">
-				House in the woods
+				Forest Adventure
 			</p>
 			<p className="font-normal text-base text-white"></p>
 			<p className="font-normal text-base my-4 max-w-lg text-neutral-200">
 				A serene and tranquil retreat, this house in the woods offers a
 				peaceful escape from the hustle and bustle of city life.
 			</p>
-			<Link href="/portfolio/1">
+			<Link href="/portfolio/Forest Adventure">
 				<button className="px-8 py-2 bg-gradient-to-r to-orange-300 via-red-400 from-red-600 text-white text-sm rounded-md font-semibold hover:bg-red-600 hover:shadow-lg">
 					View More
 				</button>
@@ -34,7 +34,7 @@ const SkeletonTwo = () => {
 	return (
 		<div>
 			<p className="font-bold md:text-4xl text-xl text-white">
-				House above the clouds
+				Valley of life
 			</p>
 			<p className="font-normal text-base text-white"></p>
 			<p className="font-normal text-base my-4 max-w-lg text-neutral-200">
@@ -42,7 +42,7 @@ const SkeletonTwo = () => {
 				views and a unique living experience. It's a place where the sky
 				meets home, and tranquility is a way of life.
 			</p>
-			<Link href="/portfolio/2">
+			<Link href="/portfolio/Valley of life">
 				<button className="px-8 py-2 bg-gradient-to-r to-orange-300 via-red-400 from-red-600 text-white text-sm rounded-md font-semibold hover:bg-red-600 hover:shadow-lg">
 					View More
 				</button>
@@ -54,14 +54,14 @@ const SkeletonThree = () => {
 	return (
 		<div>
 			<p className="font-bold md:text-4xl text-xl text-white">
-				Greens all over
+				Camping is for pros
 			</p>
 			<p className="font-normal text-base text-white"></p>
 			<p className="font-normal text-base my-4 max-w-lg text-neutral-200">
 				A house surrounded by greenery and nature's beauty. It's the
 				perfect place to relax, unwind, and enjoy life.
 			</p>
-			<Link href="/portfolio/3">
+			<Link href="/portfolio/Camping is for pros">
 				<button className="px-8 py-2 bg-gradient-to-r to-orange-300 via-red-400 from-red-600 text-white text-sm rounded-md font-semibold hover:bg-red-600 hover:shadow-lg">
 					View More
 				</button>
@@ -73,14 +73,14 @@ const SkeletonFour = () => {
 	return (
 		<div>
 			<p className="font-bold md:text-4xl text-xl text-white">
-				Rivers are serene
+				The road not taken
 			</p>
 			<p className="font-normal text-base text-white"></p>
 			<p className="font-normal text-base my-4 max-w-lg text-neutral-200">
 				A house by the river is a place of peace and tranquility. It's
 				the perfect place to relax, unwind, and enjoy life.
 			</p>
-			<Link href="/portfolio/4">
+			<Link href="/portfolio/The road not taken">
 				<button className="px-8 py-2 bg-gradient-to-r to-orange-300 via-red-400 from-red-600 text-white text-sm rounded-md font-semibold hover:bg-red-600 hover:shadow-lg">
 					View More
 				</button>
