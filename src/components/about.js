@@ -6,7 +6,7 @@ export default function AboutSection() {
 		<section className="container mx-auto px-4 py-10 md:py-16">
 			<div className="grid gap-12 lg:grid-cols-2 lg:gap-16 items-center">
 				<div className="relative m-4">
-					<div className="absolute inset-0 rounded-xl border-2 border-amber-700 transform translate-x-4 translate-y-4 -z-10" />
+					<div className="absolute inset-0 rounded-xl border-2 border-red-600 transform translate-x-4 translate-y-4 -z-10" />
 					<div className="relative bg-black/5 rounded-xl overflow-hidden shadow-lg">
 						<Image
 							src="/about.jpg"
@@ -24,16 +24,20 @@ export default function AboutSection() {
 					</h1>
 
 					<p className="text-gray-500">
-						At <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-800 via-green-600 to-lime-500">Kurja Interior Space</span>, we believe that success lies in more than just
-						aesthetics — it's about creating spaces that
-						captivate and inspire, resonating deeply with your
-						unique vision and lifestyle. With a passion for
-						innovation and an eye for detail, we specialize in
-						transforming visions into breathtaking realities. Our
-						team is dedicated to curating bespoke designs that
-						elevate every space, leaving a lasting impression of
-						sophistication and style. Let us help you redefine what
-						it means to truly feel at home.
+						At{" "}
+						<span className="text-transparent bg-clip-text bg-gradient-to-r from-green-800 via-green-600 to-lime-500">
+							Kurja Interior Space
+						</span>
+						, we believe that success lies in more than just
+						aesthetics — it's about creating spaces that captivate
+						and inspire, resonating deeply with your unique vision
+						and lifestyle. With a passion for innovation and an eye
+						for detail, we specialize in transforming visions into
+						breathtaking realities. Our team is dedicated to
+						curating bespoke designs that elevate every space,
+						leaving a lasting impression of sophistication and
+						style. Let us help you redefine what it means to truly
+						feel at home.
 					</p>
 
 					<Link href="/about">

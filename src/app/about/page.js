@@ -41,7 +41,7 @@ const About = () => {
 				</div>
 			</div>
 			<h1 className="self-center pt-10 text-2xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r to-orange-300 via-red-400 from-red-600 inline-block">
-			Where Design Meets Mastery
+				Where Design Meets Mastery
 			</h1>
 			<h2 className="text-center px-2 py-4 font-light text-sm md:text-base lg:text-lg text-gray-600">
 				Our Design Team brings your needs, passions and vision to life,

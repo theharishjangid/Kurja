@@ -4,7 +4,7 @@ export default function JourneySection() {
 	return (
 		<section className="container mx-auto px-4 py-10 md:py-16 flex flex-col">
 			<h1 className="mb-7 lg:mb-10 self-center text-2xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r to-orange-300 via-red-400 from-red-600">
-			Where Innovation Meets Legacy
+				Where Innovation Meets Legacy
 			</h1>
 			<div className="grid md:grid-cols-2 gap-8 items-center">
 				<div className="space-y-8 flex flex-col mx-4">
@@ -45,7 +45,7 @@ export default function JourneySection() {
 						alt="Interior Design Showcase"
 						className="rounded-lg shadow-xl"
 					/>
-					<div className="absolute -top-4 -left-4 border-2 border-amber-700 rounded-xl w-full h-full -z-10" />
+					<div className="absolute -top-4 -left-4 border-2 border-red-600 rounded-xl w-full h-full -z-10" />
 				</div>
 			</div>
 		</section>

@@ -39,8 +39,8 @@ const SkeletonTwo = () => {
 			<p className="font-normal text-base text-white"></p>
 			<p className="font-normal text-base my-4 max-w-lg text-neutral-200">
 				Perched high above the world, this house offers breathtaking
-				views and a unique living experience. It's a place where
-				the sky meets home, and tranquility is a way of life.
+				views and a unique living experience. It's a place where the sky
+				meets home, and tranquility is a way of life.
 			</p>
 			<Link href="/portfolio/2">
 				<button className="px-8 py-2 bg-gradient-to-r to-orange-300 via-red-400 from-red-600 text-white text-sm rounded-md font-semibold hover:bg-red-600 hover:shadow-lg">
@@ -58,8 +58,8 @@ const SkeletonThree = () => {
 			</p>
 			<p className="font-normal text-base text-white"></p>
 			<p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-				A house surrounded by greenery and nature's beauty.
-				It's the perfect place to relax, unwind, and enjoy life.
+				A house surrounded by greenery and nature's beauty. It's the
+				perfect place to relax, unwind, and enjoy life.
 			</p>
 			<Link href="/portfolio/3">
 				<button className="px-8 py-2 bg-gradient-to-r to-orange-300 via-red-400 from-red-600 text-white text-sm rounded-md font-semibold hover:bg-red-600 hover:shadow-lg">
@@ -77,8 +77,8 @@ const SkeletonFour = () => {
 			</p>
 			<p className="font-normal text-base text-white"></p>
 			<p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-				A house by the river is a place of peace and tranquility.
-				It's the perfect place to relax, unwind, and enjoy life.
+				A house by the river is a place of peace and tranquility. It's
+				the perfect place to relax, unwind, and enjoy life.
 			</p>
 			<Link href="/portfolio/4">
 				<button className="px-8 py-2 bg-gradient-to-r to-orange-300 via-red-400 from-red-600 text-white text-sm rounded-md font-semibold hover:bg-red-600 hover:shadow-lg">
