@@ -52,8 +52,8 @@ export default function DesignTeam() {
 								layoutId={`image-${active.title}-${id}`}>
 								<Image
 									priority
-									width={200}
-									height={200}
+									width={500}
+									height={500}
 									src={active.src}
 									alt={active.title}
 									className="w-full h-80 lg:h-80 sm:rounded-tr-lg sm:rounded-tl-lg object-cover"

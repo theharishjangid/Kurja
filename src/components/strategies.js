@@ -14,8 +14,8 @@ export default function StrategySection() {
 							<Image
 								src="/search.webp"
 								alt="Logo"
-								width={200}
-								height={200}
+								width={50}
+								height={50}
 								className="w-12 h-12 text-amber-600"
 							/>
 						</div>
@@ -33,8 +33,8 @@ export default function StrategySection() {
 							<Image
 								src="/design.webp"
 								alt="Logo"
-								width={200}
-								height={200}
+								width={50}
+								height={50}
 								className="w-12 h-12 text-amber-600"
 							/>
 						</div>
@@ -52,8 +52,8 @@ export default function StrategySection() {
 							<Image
 								src="/deliver.webp"
 								alt="Logo"
-								width={200}
-								height={200}
+								width={50}
+								height={50}
 								className="w-12 h-12 text-amber-600"
 							/>
 						</div>

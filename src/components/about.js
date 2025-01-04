@@ -11,8 +11,8 @@ export default function AboutSection() {
 						<Image
 							src="/about.webp"
 							alt="Luxury living website displayed on laptop"
-							width={300}
-							height={300}
+							width={500}
+							height={500}
 							className="w-full h-1/2"
 						/>
 					</div>
