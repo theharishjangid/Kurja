@@ -136,11 +136,13 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
 					</motion.div>
 					<div className="flex gap-4 pt-12 md:pt-0">
 						<button
+							aria-label="Previous"
 							onClick={handlePrev}
 							className="h-7 w-7 rounded-full bg-gradient-to-r to-orange-300 via-red-400 from-red-600 flex items-center justify-center group/button shadow-lg opacity-80">
 							<IconArrowLeft className="h-5 w-5 text-white group-hover/button:rotate-20 transition-transform duration-300" />
 						</button>
 						<button
+							aria-label="Next"
 							onClick={handleNext}
 							className="h-7 w-7 rounded-full bg-gradient-to-r from-orange-300 via-red-400 to-red-600 flex items-center justify-center group/button shadow-lg opacity-80">
 							<IconArrowRight className="h-5 w-5 text-white group-hover/button:-rotate-20 transition-transform duration-300" />

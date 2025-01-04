@@ -28,7 +28,9 @@ export default function Home() {
 						}
 					</p>
 					<Link href="/contact">
-						<button className="px-8 py-2 bg-gradient-to-r to-orange-300 via-red-400 from-red-600 text-white text-sm rounded-md font-semibold hover:bg-red-600 hover:shadow-lg">
+						<button
+							aria-label="Contact"
+							className="px-8 py-2 bg-gradient-to-r to-orange-300 via-red-400 from-red-600 text-white text-sm rounded-md font-semibold hover:bg-red-600 hover:shadow-lg">
 							Contact Us
 						</button>
 					</Link>

@@ -56,6 +56,7 @@ export default function ContactForm() {
 				</LabelInputContainer>
 
 				<button
+					aria-label="Submit"
 					className="relative group/btn bg-gradient-to-r to-orange-300 via-red-400 from-red-600 w-full text-white rounded-md h-10 font-medium hover:shadow-lg"
 					type="submit">
 					Submit

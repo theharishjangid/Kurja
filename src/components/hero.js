@@ -32,7 +32,9 @@ const HeroSection = () => {
 					Get a Designer <br /> Space You'll Love
 				</motion.p>
 				<Link href="/portfolio">
-					<button className="px-4 py-2 backdrop-blur-sm border bg-red-red/10 border-red-500/20 text-white mx-auto text-center rounded-md relative mt-4">
+					<button
+						aria-label="Portfolio"
+						className="px-4 py-2 backdrop-blur-sm border bg-red-red/10 border-red-500/20 text-white mx-auto text-center rounded-md relative mt-4">
 						<span>Explore More →</span>
 						<div className="absolute inset-x-0  h-px -bottom-px bg-gradient-to-r w-3/4 mx-auto from-transparent via-red-600 to-transparent" />
 					</button>

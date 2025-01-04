@@ -22,7 +22,9 @@ const SkeletonOne = () => {
 				peaceful escape from the hustle and bustle of city life.
 			</p>
 			<Link href="/portfolio/Forest Adventure">
-				<button className="px-8 py-2 bg-gradient-to-r to-orange-300 via-red-400 from-red-600 text-white text-sm rounded-md font-semibold hover:bg-red-600 hover:shadow-lg">
+				<button
+					aria-label="Portfolio"
+					className="px-8 py-2 bg-gradient-to-r to-orange-300 via-red-400 from-red-600 text-white text-sm rounded-md font-semibold hover:bg-red-600 hover:shadow-lg">
 					View More
 				</button>
 			</Link>
@@ -43,7 +45,9 @@ const SkeletonTwo = () => {
 				meets home, and tranquility is a way of life.
 			</p>
 			<Link href="/portfolio/Valley of life">
-				<button className="px-8 py-2 bg-gradient-to-r to-orange-300 via-red-400 from-red-600 text-white text-sm rounded-md font-semibold hover:bg-red-600 hover:shadow-lg">
+				<button
+					aria-label="Portfolio"
+					className="px-8 py-2 bg-gradient-to-r to-orange-300 via-red-400 from-red-600 text-white text-sm rounded-md font-semibold hover:bg-red-600 hover:shadow-lg">
 					View More
 				</button>
 			</Link>
@@ -62,7 +66,9 @@ const SkeletonThree = () => {
 				perfect place to relax, unwind, and enjoy life.
 			</p>
 			<Link href="/portfolio/Camping is for pros">
-				<button className="px-8 py-2 bg-gradient-to-r to-orange-300 via-red-400 from-red-600 text-white text-sm rounded-md font-semibold hover:bg-red-600 hover:shadow-lg">
+				<button
+					aria-label="Portfolio"
+					className="px-8 py-2 bg-gradient-to-r to-orange-300 via-red-400 from-red-600 text-white text-sm rounded-md font-semibold hover:bg-red-600 hover:shadow-lg">
 					View More
 				</button>
 			</Link>
@@ -81,7 +87,9 @@ const SkeletonFour = () => {
 				the perfect place to relax, unwind, and enjoy life.
 			</p>
 			<Link href="/portfolio/The road not taken">
-				<button className="px-8 py-2 bg-gradient-to-r to-orange-300 via-red-400 from-red-600 text-white text-sm rounded-md font-semibold hover:bg-red-600 hover:shadow-lg">
+				<button
+					aria-label="Portfolio"
+					className="px-8 py-2 bg-gradient-to-r to-orange-300 via-red-400 from-red-600 text-white text-sm rounded-md font-semibold hover:bg-red-600 hover:shadow-lg">
 					View More
 				</button>
 			</Link>

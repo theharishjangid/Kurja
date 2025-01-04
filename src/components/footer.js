@@ -24,18 +24,21 @@ const Footer = () => {
 				<div className="flex mx-2 my-2 sm:my-0">
 					<a
 						href="https://www.instagram.com/"
+						aria-label="facebook"
 						target="_blank"
 						rel="noreferrer">
 						<RiFacebookLine className="w-8 h-8 p-1 ml-2 hover:bg-gradient-to-r to-orange-300 via-red-400 from-red-600 hover:text-white border rounded-full border-gray-500 text-gray-500" />
 					</a>
 					<a
 						href="https://www.facebook.com/"
+						aria-label="instagram"
 						target="_blank"
 						rel="noreferrer">
 						<RiInstagramLine className="w-8 h-8 p-1 ml-2 hover:bg-gradient-to-r to-orange-300 via-red-400 from-red-600 hover:text-white border rounded-full border-gray-500 text-gray-500" />
 					</a>
 					<a
 						href="https://www.linkedin.com/"
+						aria-label="linkedin"
 						target="_blank"
 						rel="noreferrer">
 						<RiLinkedinLine className="w-8 h-8 p-1 ml-2 hover:bg-gradient-to-r to-orange-300 via-red-400 from-red-600 hover:text-white border rounded-full border-gray-500 text-gray-500" />

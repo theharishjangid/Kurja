@@ -41,8 +41,10 @@ export default function AboutSection() {
 					</p>
 
 					<Link href="/about">
-						<button className="mt-6 px-8 py-2 bg-gradient-to-r to-orange-300 via-red-400 from-red-600 text-white text-sm rounded-md font-semibold hover:bg-red-600 hover:shadow-lg">
-							Learn More
+						<button
+							aria-label="About"
+							className="mt-6 px-8 py-2 bg-gradient-to-r to-orange-300 via-red-400 from-red-600 text-white text-sm rounded-md font-semibold hover:bg-red-600 hover:shadow-lg">
+							More About Us
 						</button>
 					</Link>
 				</div>

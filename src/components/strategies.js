@@ -20,9 +20,9 @@ export default function StrategySection() {
 								className="w-12 h-12 text-amber-600"
 							/>
 						</div>
-						<h4 className="text-xl md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-green-800 via-green-600 to-lime-500">
+						<h2 className="text-xl md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-green-800 via-green-600 to-lime-500">
 							Discover
-						</h4>
+						</h2>
 						<p className="text-gray-500">
 							Collaborating closely with you to understand your
 							vision and crafting a design blueprint that captures
@@ -39,9 +39,9 @@ export default function StrategySection() {
 								className="w-12 h-12 text-amber-600"
 							/>
 						</div>
-						<h4 className="text-xl md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-green-800 via-green-600 to-lime-500">
+						<h2 className="text-xl md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-green-800 via-green-600 to-lime-500">
 							Design
-						</h4>
+						</h2>
 						<p className="text-gray-500 leading-relaxed">
 							Bringing concepts to life with meticulous attention
 							to detail, ensuring every element aligns with the
@@ -58,9 +58,9 @@ export default function StrategySection() {
 								className="w-12 h-12 text-amber-600"
 							/>
 						</div>
-						<h4 className="text-xl md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-green-800 via-green-600 to-lime-500">
+						<h2 className="text-xl md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-green-800 via-green-600 to-lime-500">
 							Deliver
-						</h4>
+						</h2>
 						<p className="text-gray-500 leading-relaxed">
 							Refining and perfecting designs to achieve timeless
 							beauty and unparalleled sophistication tailored to
