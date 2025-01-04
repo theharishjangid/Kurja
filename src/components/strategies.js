@@ -23,7 +23,7 @@ export default function StrategySection() {
 						<h2 className="text-xl md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-green-800 via-green-600 to-lime-500">
 							Discover
 						</h2>
-						<p className="text-gray-500">
+						<p className="text-gray-600">
 							Collaborating closely with you to understand your
 							vision and crafting a design blueprint that captures
 							your personality and lifestyle.
@@ -42,7 +42,7 @@ export default function StrategySection() {
 						<h2 className="text-xl md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-green-800 via-green-600 to-lime-500">
 							Design
 						</h2>
-						<p className="text-gray-500 leading-relaxed">
+						<p className="text-gray-600 leading-relaxed">
 							Bringing concepts to life with meticulous attention
 							to detail, ensuring every element aligns with the
 							aesthetics and functionality of your space.
@@ -61,7 +61,7 @@ export default function StrategySection() {
 						<h2 className="text-xl md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-green-800 via-green-600 to-lime-500">
 							Deliver
 						</h2>
-						<p className="text-gray-500 leading-relaxed">
+						<p className="text-gray-600 leading-relaxed">
 							Refining and perfecting designs to achieve timeless
 							beauty and unparalleled sophistication tailored to
 							your needs.

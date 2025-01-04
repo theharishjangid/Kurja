@@ -22,7 +22,7 @@ export default function Home() {
 						Hire Kurja today and take the first step towards
 						building your dream home!
 					</h2>
-					<p className="mb-4 lg:w-3/5 mt-2 md:mt-4 text-gray-500">
+					<p className="mb-4 lg:w-3/5 mt-2 md:mt-4 text-gray-600">
 						{
 							"With our seamless process, expert guidance and a portfolio of stunning interior designs, your dream space is just a step away. Contact us now to bring your vision to life!"
 						}
