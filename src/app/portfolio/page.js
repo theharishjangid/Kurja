@@ -1,5 +1,5 @@
 import { FocusCards } from "@/components/ui/focus-cards";
-import { residentialCards, commercialCards, luxuryCards } from "@/constants";
+import { residentialCards, commercialCards } from "@/constants";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 export default function Home() {

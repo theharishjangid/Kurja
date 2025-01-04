@@ -1,11 +1,11 @@
 "use client";
-import * as React from "react";
+import { forwardRef, useState } from "react";
 import { cn } from "@/lib/utils";
 import { useMotionTemplate, useMotionValue, motion } from "framer-motion";
 
-const Input = React.forwardRef(({ className, type, ...props }, ref) => {
+const Input = forwardRef(({ className, type, ...props }, ref) => {
 	const radius = 100; // change this to increase the rdaius of the hover effect
-	const [visible, setVisible] = React.useState(false);
+	const [visible, setVisible] = useState(false);
 
 	let mouseX = useMotionValue(0);
 	let mouseY = useMotionValue(0);
@@ -51,9 +51,9 @@ const Input = React.forwardRef(({ className, type, ...props }, ref) => {
 });
 Input.displayName = "Input";
 
-const TextArea = React.forwardRef(({ className, type, ...props }, ref) => {
+const TextArea = forwardRef(({ className, type, ...props }, ref) => {
 	const radius = 100; // change this to increase the rdaius of the hover effect
-	const [visible, setVisible] = React.useState(false);
+	const [visible, setVisible] = useState(false);
 
 	let mouseX = useMotionValue(0);
 	let mouseY = useMotionValue(0);

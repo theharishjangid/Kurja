@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { HiMiniPaintBrush, HiBuildingOffice2 } from "react-icons/hi2";
 
 export default function StrategySection() {
 	return (

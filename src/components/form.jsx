@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import { Label } from "@/components/ui/label";
 import { Input, TextArea } from "@/components/ui/input";
 import { cn } from "@/lib/utils";

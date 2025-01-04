@@ -1,10 +1,10 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+import { useState, memo } from "react";
 import { cn } from "@/lib/utils";
 
-export const Card = React.memo(({ card, index, hovered, setHovered }) => (
+export const Card = memo(({ card, index, hovered, setHovered }) => (
 	<Link
 		onMouseEnter={() => setHovered(index)}
 		onMouseLeave={() => setHovered(null)}
