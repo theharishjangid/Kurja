@@ -15,7 +15,7 @@ const Navbar = () => {
 			<nav className="container mx-auto flex justify-between items-center p-2">
 				<Link href="/">
 					<Image
-						src="/logo.png"
+						src="/logo.webp"
 						alt="Logo"
 						width={244}
 						height={100}

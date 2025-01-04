@@ -39,7 +39,7 @@ export default function JourneySection() {
 
 				<div className="relative mx-4">
 					<Image
-						src="/office.jpg"
+						src="/office.webp"
 						width={800}
 						height={600}
 						alt="Interior Design Showcase"

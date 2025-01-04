@@ -15,7 +15,6 @@ export default function Home() {
 							Residential
 						</TabsTrigger>
 						<TabsTrigger value="commercial">Commercial</TabsTrigger>
-						<TabsTrigger value="luxury">Luxury</TabsTrigger>
 					</TabsList>
 				</div>
 				<TabsContent value="residential">
@@ -23,9 +22,6 @@ export default function Home() {
 				</TabsContent>
 				<TabsContent value="commercial">
 					<FocusCards cards={commercialCards} />
-				</TabsContent>
-				<TabsContent value="luxury">
-					<FocusCards cards={luxuryCards} />
 				</TabsContent>
 			</Tabs>
 		</main>

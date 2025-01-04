@@ -77,7 +77,7 @@ export default {
 				20: "20deg",
 			},
 			backgroundImage: {
-				contactImg: "url(/contact.jpg)",
+				contactImg: "url(/contact.webp)",
 			},
 		},
 	},

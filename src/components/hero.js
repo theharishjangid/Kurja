@@ -34,8 +34,8 @@ const HeroSection = () => {
 				<Link href="/portfolio">
 					<button
 						aria-label="Portfolio"
-						className="px-8 py-2 backdrop-blur-sm border bg-red-red/10 border-red-500/20 text-white mx-auto text-center rounded-md relative mt-4">
-						<span>Explore More →</span>
+						className="px-4 py-2 backdrop-blur-sm border bg-red-red/10 border-red-500/20 text-white mx-auto text-center rounded-md relative mt-4">
+						Explore More →
 						<div className="absolute inset-x-0  h-px -bottom-px bg-gradient-to-r w-3/4 mx-auto from-transparent via-red-600 to-transparent" />
 					</button>
 				</Link>

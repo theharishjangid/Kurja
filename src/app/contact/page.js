@@ -27,18 +27,29 @@ const Contact = () => {
 						Where Connections Meet Convenience
 					</h1>
 					<div className="space-y-2 flex flex-col items-center p-4 text-gray-600">
-						<p className="flex items-center">
+						<a
+							href="https://maps.app.goo.gl/3nnbZLRC8eQyzdqb9"
+							aria-label="google maps"
+							target="_blank"
+							rel="noreferrer"
+							className="flex items-center">
 							<MapPin className="mr-2 h-5 w-5 text-red-600" />
 							123 Design Street, Creative City, 12345
-						</p>
-						<p className="flex items-center">
+						</a>
+						<a
+							href="tel:+1 (555) 123-4567"
+							aria-label="phone"
+							className="flex items-center">
 							<Phone className="mr-2 h-5 w-5 text-red-600" />
 							(555) 123-4567
-						</p>
-						<p className="flex items-center">
+						</a>
+						<a
+							href="mailto:info@interiordesign.com"
+							aria-label="email"
+							className="flex items-center">
 							<Mail className="mr-2 h-5 w-5 text-red-600" />
 							info@interiordesign.com
-						</p>
+						</a>
 					</div>
 				</div>
 				<div className="h-full mx-4 ">

@@ -4,6 +4,7 @@ import {
 	RiFacebookLine,
 	RiInstagramLine,
 	RiLinkedinLine,
+	RiYoutubeLine,
 } from "react-icons/ri";
 
 const Footer = () => {
@@ -14,7 +15,7 @@ const Footer = () => {
 			<div className="container mx-auto flex justify-between sm:items-end flex-col sm:flex-row">
 				<Link href="/">
 					<Image
-						src="/logo3D.png"
+						src="/logo.webp"
 						alt="Logo"
 						width={244}
 						height={100}
@@ -42,6 +43,13 @@ const Footer = () => {
 						target="_blank"
 						rel="noreferrer">
 						<RiLinkedinLine className="w-8 h-8 p-1 ml-2 hover:bg-gradient-to-r to-orange-300 via-red-400 from-red-600 hover:text-white border rounded-full border-gray-500 text-gray-500" />
+					</a>
+					<a
+						href="https://www.youtube.com/"
+						aria-label="youtube"
+						target="_blank"
+						rel="noreferrer">
+						<RiYoutubeLine className="w-8 h-8 p-1 ml-2 hover:bg-gradient-to-r to-orange-300 via-red-400 from-red-600 hover:text-white border rounded-full border-gray-500 text-gray-500" />
 					</a>
 				</div>
 			</div>
