@@ -33,7 +33,7 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
 	};
 	return (
 		<div className="max-w-sm md:max-w-4xl mx-auto antialiased px-4 md:px-8 lg:px-12 py-10">
-			<div className="relative grid grid-cols-1 md:grid-cols-2  gap-20">
+			<div className="relative grid grid-cols-1 md:grid-cols-2 gap:10 md:gap-20">
 				<div>
 					<div className="relative h-80 w-full">
 						<AnimatePresence>
@@ -82,7 +82,7 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
 						</AnimatePresence>
 					</div>
 				</div>
-				<div className="flex justify-between flex-col py-4">
+				<div className="flex justify-between flex-col py-4 items-center md:items-start">
 					<motion.div
 						key={active}
 						initial={{
@@ -101,13 +101,13 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
 							duration: 0.2,
 							ease: "easeInOut",
 						}}>
-						<h2 className="text-2xl text-transparent bg-clip-text bg-gradient-to-r from-green-800 via-green-600 to-lime-500">
+						<h2 className="text-center md:text-start text-2xl text-transparent bg-clip-text bg-gradient-to-r from-green-800 via-green-600 to-lime-500">
 							{testimonials[active].name}
 						</h2>
-						<p className="text-sm text-gray-500 dark:text-neutral-500">
+						<p className="text-center md:text-start text-sm text-gray-500 dark:text-neutral-500">
 							{testimonials[active].designation}
 						</p>
-						<motion.p className="text-lg text-gray-500 mt-8 dark:text-neutral-300">
+						<motion.p className="text-center md:text-start text-lg text-gray-500 mt-4 md:mt-8 dark:text-neutral-300">
 							{testimonials[active].quote
 								.split(" ")
 								.map((word, index) => (
@@ -134,7 +134,7 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
 								))}
 						</motion.p>
 					</motion.div>
-					<div className="flex gap-4 pt-12 md:pt-0">
+					<div className="flex gap-4 pt-4 md:pt-0">
 						<button
 							aria-label="Previous"
 							onClick={handlePrev}

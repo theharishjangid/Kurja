@@ -6,6 +6,7 @@ import { GiPencilRuler, GiPaintRoller } from "react-icons/gi";
 import { LuClock3 } from "react-icons/lu";
 import { RiToolsLine } from "react-icons/ri";
 import { PiHandshakeFill } from "react-icons/pi";
+import { FaWhatsapp } from "react-icons/fa";
 
 const Contact = () => {
 	return (
@@ -37,11 +38,11 @@ const Contact = () => {
 							123 Design Street, Creative City, 12345
 						</a>
 						<a
-							href="tel:+1 (555) 123-4567"
+							href="tel:+91 98454 62920"
 							aria-label="phone"
 							className="flex items-center">
 							<Phone className="mr-2 h-5 w-5 text-red-600" />
-							(555) 123-4567
+							(+91) 98454 62920
 						</a>
 						<a
 							href="mailto:info@interiordesign.com"
@@ -49,6 +50,14 @@ const Contact = () => {
 							className="flex items-center">
 							<Mail className="mr-2 h-5 w-5 text-red-600" />
 							info@interiordesign.com
+						</a>
+						<a
+							href="https://wa.me/919845462920?text=Hello%2C%20I%20am%20interested%20in%20Kurja%20Interiors%20design%20services.%20Can%20you%20please%20provide%20more%20details%3F"
+							target="_blank"
+							aria-label="whatsapp"
+							className="flex items-center">
+							<FaWhatsapp className="mr-2 h-5 w-5 text-red-600" />
+							WhatsApp Us
 						</a>
 					</div>
 				</div>
@@ -73,7 +82,7 @@ const Contact = () => {
 							<h2 className="mb-4 text-center text-lg md:text-xl lg:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-green-800 via-green-600 to-lime-500">
 								Designs Tailored to You
 							</h2>
-							<p className="text-gray-600 mx-4 md:mx-10">
+							<p className="text-gray-600 mx-4 md:mx-10 text-center">
 								At Kurja, we make creating your dream space
 								effortless. From concept to completion, we
 								deliver stunning interiors that reflect your
@@ -127,6 +136,9 @@ const Contact = () => {
 				</div>
 			</div>
 			<div className="py-4 md:py-10 rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+				<h1 className="mb-4 md:mb-10 text-center text-2xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r to-orange-300 via-red-400 from-red-600">
+					Designs That Speak for Themselves
+				</h1>
 				<InfiniteMovingCards
 					items={testimonials}
 					direction="right"

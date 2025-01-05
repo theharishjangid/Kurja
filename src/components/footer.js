@@ -19,7 +19,7 @@ const Footer = () => {
 						alt="Logo"
 						width={244}
 						height={100}
-						className="w-52"
+						className="w-52 p-2"
 					/>
 				</Link>
 				<div className="flex mx-2 my-2 sm:my-0">
@@ -53,7 +53,7 @@ const Footer = () => {
 					</a>
 				</div>
 			</div>
-			<div className="container mx-auto p-2 mt-2 sm:mt-4 flex justify-between items-center font-light text-sm text-gray-600 border-t border-gray-400">
+			<div className="container mx-auto p-2 mt-2 sm:mt-4 flex justify-between items-center font-light text-xs sm:text-sm text-gray-600 border-t border-gray-400">
 				<p>© Copyright {currentYear} - Kurja Interior Space LLP.</p>
 				<p>All Rights Reserved.</p>
 			</div>
