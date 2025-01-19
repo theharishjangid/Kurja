@@ -9,7 +9,7 @@ export default function AboutSection() {
 					<div className="absolute inset-0 rounded-xl border-2 border-red-600 transform translate-x-4 translate-y-4 -z-10" />
 					<div className="relative bg-black/5 rounded-xl overflow-hidden shadow-lg">
 						<Image
-							src="/about.webp"
+							src="/Residential/Vaisnavi 2/2.png"
 							alt="Luxury living website displayed on laptop"
 							width={500}
 							height={500}

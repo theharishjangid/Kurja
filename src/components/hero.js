@@ -5,10 +5,16 @@ import { ImagesSlider } from "../components/ui/images-slider";
 
 const HeroSection = () => {
 	const images = [
-		"https://cdn-bnokp.nitrocdn.com/QNoeDwCprhACHQcnEmHgXDhDpbEOlRHH/assets/images/optimized/rev-6d59c08/www.decorilla.com/online-decorating/wp-content/uploads/2022/07/bohemian-interior-design-feature-2-scaled.jpeg",
-		"https://media.designcafe.com/wp-content/uploads/2019/12/09102702/modern-living-room-design-with-tv-unit-designed-with-storage.jpg",
-		"https://chiedesign.in/wp-content/uploads/2022/05/Luxury-Interior-Design-Living-Room-980x635.jpg",
-		"https://cdn.shopify.com/s/files/1/0549/5806/3713/files/what_interior_design_style_uses_plants.jpg?v=1710239789",
+		"/Residential/Vaisnavi 2/1.png",
+		"/Commercial/Fizz Club House/5.png",
+		"/Residential/Abhishek/5.png",
+		"/Commercial/Manjhu/1.png",
+		"/Residential/Bimalji/11.png",
+		"/Commercial/Priynka Kolkata/3.png",
+		"/Residential/Bimalji/2.png",
+		"/Commercial/Realstate/1.png",
+		"/Residential/Swetha/2.png",
+		"/Commercial/Realstate/4.png",
 	];
 	return (
 		<ImagesSlider

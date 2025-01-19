@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { ImagesSlider } from "./ui/images-slider";
 
 const AboutHero = () => {
-	const images = ["/office.webp"];
+	const images = ["/Commercial/Fire Office/1.png"];
 	return (
 		<ImagesSlider
 			className="h-72 sm:h-[30rem] md:h-[40rem]"

@@ -14,14 +14,14 @@ const SkeletonOne = () => {
 	return (
 		<div>
 			<p className="font-bold md:text-4xl text-xl text-white">
-				Forest Adventure
+				Abhishek
 			</p>
 			<p className="font-normal text-base text-white"></p>
 			<p className="font-normal text-base my-4 max-w-lg text-neutral-200">
 				A serene and tranquil retreat, this house in the woods offers a
 				peaceful escape from the hustle and bustle of city life.
 			</p>
-			<Link href="/portfolio/Forest Adventure">
+			<Link href="/portfolio/Abhishek">
 				<button
 					aria-label="Portfolio"
 					className="px-8 py-2 bg-gradient-to-r to-orange-300 via-red-400 from-red-600 text-white text-sm rounded-md font-semibold hover:bg-red-600 hover:shadow-lg">
@@ -36,7 +36,7 @@ const SkeletonTwo = () => {
 	return (
 		<div>
 			<p className="font-bold md:text-4xl text-xl text-white">
-				Valley of life
+				Manjhunath
 			</p>
 			<p className="font-normal text-base text-white"></p>
 			<p className="font-normal text-base my-4 max-w-lg text-neutral-200">
@@ -44,7 +44,7 @@ const SkeletonTwo = () => {
 				views and a unique living experience. It's a place where the sky
 				meets home, and tranquility is a way of life.
 			</p>
-			<Link href="/portfolio/Valley of life">
+			<Link href="/portfolio/Manjhunath">
 				<button
 					aria-label="Portfolio"
 					className="px-8 py-2 bg-gradient-to-r to-orange-300 via-red-400 from-red-600 text-white text-sm rounded-md font-semibold hover:bg-red-600 hover:shadow-lg">
@@ -103,14 +103,14 @@ const cards = [
 		content: <SkeletonOne />,
 		className: "md:col-span-2 cursor-pointer",
 		thumbnail:
-			"https://cdn-bnokp.nitrocdn.com/QNoeDwCprhACHQcnEmHgXDhDpbEOlRHH/assets/images/optimized/rev-6d59c08/www.decorilla.com/online-decorating/wp-content/uploads/2022/07/bohemian-interior-design-feature-2-scaled.jpeg",
+			"/Residential/Abhishek/6.png",
 	},
 	{
 		id: 2,
 		content: <SkeletonTwo />,
 		className: "col-span-1 cursor-pointer",
 		thumbnail:
-			"https://media.designcafe.com/wp-content/uploads/2019/12/09102702/modern-living-room-design-with-tv-unit-designed-with-storage.jpg",
+			"/Residential/Manjhunath/8.png",
 	},
 	{
 		id: 3,
