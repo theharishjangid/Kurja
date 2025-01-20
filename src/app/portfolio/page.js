@@ -1,5 +1,5 @@
 import { FocusCards } from "@/components/ui/focus-cards";
-import { residentialCards, commercialCards } from "@/constants";
+import { portfolioData } from "@/constants";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
 				Where Vision Meets Reality
 			</h1>
 			<Tabs defaultValue="residential">
-				<div className="flex items-center justify-center">
+				<div className="flex items-center justify-center mb-10">
 					<TabsList>
 						<TabsTrigger value="residential">
 							Residential
@@ -18,10 +18,10 @@ export default function Home() {
 					</TabsList>
 				</div>
 				<TabsContent value="residential">
-					<FocusCards cards={residentialCards} />
+					<FocusCards cards={Object.values(portfolioData).filter(item => item.type === "Residential")} />
 				</TabsContent>
 				<TabsContent value="commercial">
-					<FocusCards cards={commercialCards} />
+					<FocusCards cards={Object.values(portfolioData).filter(item => item.type === "Commercial")} />
 				</TabsContent>
 			</Tabs>
 		</main>

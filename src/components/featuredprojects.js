@@ -1,92 +1,19 @@
 "use client";
 import Link from "next/link";
 import { LayoutGrid } from "./ui/layout-grid";
+import { portfolioData } from "@/constants";
 
-export default function Projects() {
-	return (
-		<div className="h-screen min-h-96 w-full">
-			<LayoutGrid cards={cards} />
-		</div>
-	);
-}
-
-const SkeletonOne = () => {
+const Skeleton = ({ featured }) => {
 	return (
 		<div>
 			<p className="font-bold md:text-4xl text-xl text-white">
-				Abhishek
+				{featured.title}
 			</p>
 			<p className="font-normal text-base text-white"></p>
 			<p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-				A serene and tranquil retreat, this house in the woods offers a
-				peaceful escape from the hustle and bustle of city life.
+				{featured.description}
 			</p>
-			<Link href="/portfolio/Abhishek">
-				<button
-					aria-label="Portfolio"
-					className="px-8 py-2 bg-gradient-to-r to-orange-300 via-red-400 from-red-600 text-white text-sm rounded-md font-semibold hover:bg-red-600 hover:shadow-lg">
-					View More
-				</button>
-			</Link>
-		</div>
-	);
-};
-
-const SkeletonTwo = () => {
-	return (
-		<div>
-			<p className="font-bold md:text-4xl text-xl text-white">
-				Manjhunath
-			</p>
-			<p className="font-normal text-base text-white"></p>
-			<p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-				Perched high above the world, this house offers breathtaking
-				views and a unique living experience. It's a place where the sky
-				meets home, and tranquility is a way of life.
-			</p>
-			<Link href="/portfolio/Manjhunath">
-				<button
-					aria-label="Portfolio"
-					className="px-8 py-2 bg-gradient-to-r to-orange-300 via-red-400 from-red-600 text-white text-sm rounded-md font-semibold hover:bg-red-600 hover:shadow-lg">
-					View More
-				</button>
-			</Link>
-		</div>
-	);
-};
-const SkeletonThree = () => {
-	return (
-		<div>
-			<p className="font-bold md:text-4xl text-xl text-white">
-				Priynka Kolkata
-			</p>
-			<p className="font-normal text-base text-white"></p>
-			<p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-				A house surrounded by greenery and nature's beauty. It's the
-				perfect place to relax, unwind, and enjoy life.
-			</p>
-			<Link href="/portfolio/Priynka Kolkata">
-				<button
-					aria-label="Portfolio"
-					className="px-8 py-2 bg-gradient-to-r to-orange-300 via-red-400 from-red-600 text-white text-sm rounded-md font-semibold hover:bg-red-600 hover:shadow-lg">
-					View More
-				</button>
-			</Link>
-		</div>
-	);
-};
-const SkeletonFour = () => {
-	return (
-		<div>
-			<p className="font-bold md:text-4xl text-xl text-white">
-				Fire Office
-			</p>
-			<p className="font-normal text-base text-white"></p>
-			<p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-				A house by the river is a place of peace and tranquility. It's
-				the perfect place to relax, unwind, and enjoy life.
-			</p>
-			<Link href="/portfolio/Fire Office">
+			<Link href={`/portfolio/${featured.title}`}>
 				<button
 					aria-label="Portfolio"
 					className="px-8 py-2 bg-gradient-to-r to-orange-300 via-red-400 from-red-600 text-white text-sm rounded-md font-semibold hover:bg-red-600 hover:shadow-lg">
@@ -100,28 +27,34 @@ const SkeletonFour = () => {
 const cards = [
 	{
 		id: 1,
-		content: <SkeletonOne />,
+		content: <Skeleton featured={portfolioData["Abhishek"]} />,
 		className: "md:col-span-2 cursor-pointer",
-		thumbnail:
-			"/Residential/Abhishek/6.webp",
+		thumbnail: "/Residential/Abhishek/6.webp",
 	},
 	{
 		id: 2,
-		content: <SkeletonTwo />,
+		content: <Skeleton featured={portfolioData["Manjhunath"]} />,
 		className: "col-span-1 cursor-pointer",
-		thumbnail:
-			"/Residential/Manjhunath/8.webp",
+		thumbnail: "/Residential/Manjhunath/8.webp",
 	},
 	{
 		id: 3,
-		content: <SkeletonThree />,
+		content: <Skeleton featured={portfolioData["Priynka Kolkata"]} />,
 		className: "col-span-1 cursor-pointer",
 		thumbnail: "/Commercial/Priynka Kolkata/1.webp",
 	},
 	{
 		id: 4,
-		content: <SkeletonFour />,
+		content: <Skeleton featured={portfolioData["Fire Office"]} />,
 		className: "md:col-span-2 cursor-pointer",
 		thumbnail: "/Commercial/Fire Office/1.webp",
 	},
 ];
+
+export default function Projects() {
+	return (
+		<div className="h-screen min-h-96 w-full">
+			<LayoutGrid cards={cards} />
+		</div>
+	);
+}
