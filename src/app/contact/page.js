@@ -1,12 +1,12 @@
 import ContactForm from "@/components/form";
-import { MapPin, Phone, Mail } from "lucide-react";
+import { FiMapPin, FiPhone, FiMail } from "react-icons/fi";
+import { SiWhatsapp } from "react-icons/si";
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 import { testimonials } from "@/constants";
 import { GiPencilRuler, GiPaintRoller } from "react-icons/gi";
 import { LuClock3 } from "react-icons/lu";
 import { RiToolsLine } from "react-icons/ri";
 import { PiHandshakeFill } from "react-icons/pi";
-import { FaWhatsapp } from "react-icons/fa";
 
 const Contact = () => {
 	return (
@@ -34,21 +34,21 @@ const Contact = () => {
 							target="_blank"
 							rel="noreferrer"
 							className="flex items-center">
-							<MapPin className="mr-2 h-5 w-5 text-red-600" />
+							<FiMapPin className="mr-2 h-5 w-5 text-red-600" />
 							123 Design Street, Creative City, 12345
 						</a>
 						<a
 							href="tel:+91 98454 62920"
 							aria-label="phone"
 							className="flex items-center">
-							<Phone className="mr-2 h-5 w-5 text-red-600" />
+							<FiPhone className="mr-2 h-5 w-5 text-red-600" />
 							(+91) 98454 62920
 						</a>
 						<a
 							href="mailto:info@interiordesign.com"
 							aria-label="email"
 							className="flex items-center">
-							<Mail className="mr-2 h-5 w-5 text-red-600" />
+							<FiMail className="mr-2 h-5 w-5 text-red-600" />
 							info@interiordesign.com
 						</a>
 						<a
@@ -56,7 +56,7 @@ const Contact = () => {
 							target="_blank"
 							aria-label="whatsapp"
 							className="flex items-center">
-							<FaWhatsapp className="mr-2 h-5 w-5 text-red-600" />
+							<SiWhatsapp className="mr-2 h-5 w-5 text-red-600" />
 							WhatsApp Us
 						</a>
 					</div>
