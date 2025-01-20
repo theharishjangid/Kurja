@@ -103,25 +103,25 @@ const cards = [
 		content: <SkeletonOne />,
 		className: "md:col-span-2 cursor-pointer",
 		thumbnail:
-			"/Residential/Abhishek/6.png",
+			"/Residential/Abhishek/6.webp",
 	},
 	{
 		id: 2,
 		content: <SkeletonTwo />,
 		className: "col-span-1 cursor-pointer",
 		thumbnail:
-			"/Residential/Manjhunath/8.png",
+			"/Residential/Manjhunath/8.webp",
 	},
 	{
 		id: 3,
 		content: <SkeletonThree />,
 		className: "col-span-1 cursor-pointer",
-		thumbnail: "/Commercial/Priynka Kolkata/1.png",
+		thumbnail: "/Commercial/Priynka Kolkata/1.webp",
 	},
 	{
 		id: 4,
 		content: <SkeletonFour />,
 		className: "md:col-span-2 cursor-pointer",
-		thumbnail: "/Commercial/Fire Office/1.png",
+		thumbnail: "/Commercial/Fire Office/1.webp",
 	},
 ];

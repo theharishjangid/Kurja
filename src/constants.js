@@ -41,109 +41,108 @@ export const testimonials = [
 export const residentialCards = [
 	{
 		title: "Shyam Kunj",
-		src: "/Residential/Shyam Kunj/1.png",
+		src: "/Residential/Shyam Kunj/1.webp",
 	},
 	{
 		title: "Vaisnavi 2",
-		src: "/Residential/Vaisnavi 2/1.png",
+		src: "/Residential/Vaisnavi 2/1.webp",
 	},
 	{
 		title: "Abhishek",
-		src: "/Residential/Abhishek/2.png",
+		src: "/Residential/Abhishek/2.webp",
 	},
 	{
 		title: "Manjhunath",
-		src: "/Residential/Manjhunath/1.png",
+		src: "/Residential/Manjhunath/1.webp",
 	},
 	{
 		title: "Meera",
-		src: "/Residential/Meera/1.png",
+		src: "/Residential/Meera/1.webp",
 	},
 	{
 		title: "Swetha",
-		src: "/Residential/Swetha/1.png",
+		src: "/Residential/Swetha/1.webp",
 	},
 	{
 		title: "Nagarshini",
-		src: "/Residential/Nagarshini/1.png",
+		src: "/Residential/Nagarshini/1.webp",
 	},
 	{
 		title: "Bspoq Anser",
-		src: "/Residential/Bspoq Anser/1.png",
+		src: "/Residential/Bspoq Anser/1.webp",
 	},
 	{
 		title: "Mushraf",
-		src: "/Residential/Mushraf/1.png",
+		src: "/Residential/Mushraf/1.webp",
 	},
 	{
 		title: "Praveen",
-		src: "/Residential/Praveen/1.png",
+		src: "/Residential/Praveen/1.webp",
 	},
 	{
 		title: "Vaisnavi",
-		src: "/Residential/Vaisnavi/1.png",
+		src: "/Residential/Vaisnavi/1.webp",
 	},
 	{
 		title: "Bimalji",
-		src: "/Residential/Bimalji/1.png",
+		src: "/Residential/Bimalji/1.webp",
 	},
 ];
 
 export const commercialCards = [
 	{
 		title: "Advantech Office",
-		src: "/Commercial/Advantech Office/1.png",
+		src: "/Commercial/Advantech Office/1.webp",
 	},
 	{
 		title: "Fizz Club House",
-		src: "/Commercial/Fizz Club House/1.png",
+		src: "/Commercial/Fizz Club House/1.webp",
 	},
 	{
 		title: "Manjhu",
-		src: "/Commercial/Manjhu/1.png",
+		src: "/Commercial/Manjhu/1.webp",
 	},
 	{
 		title: "Realstate",
-		src: "/Commercial/Realstate/1.png",
+		src: "/Commercial/Realstate/1.webp",
 	},
 	{
 		title: "Fire Office",
-		src: "/Commercial/Fire Office/1.png",
+		src: "/Commercial/Fire Office/1.webp",
 	},
 	{
 		title: "Neha Vikram",
-		src: "/Commercial/Neha Vikram/1.png",
+		src: "/Commercial/Neha Vikram/1.webp",
 	},
 	{
 		title: "Priynka Kolkata",
-		src: "/Commercial/Priynka Kolkata/1.png",
+		src: "/Commercial/Priynka Kolkata/1.webp",
 	},
 	{
 		title: "Punjabi Dhaba",
-		src: "/Commercial/Punjabi Dhaba/1.png",
+		src: "/Commercial/Punjabi Dhaba/1.webp",
 	},
 	{
 		title: "Winntus",
-		src: "/Commercial/Winntus/1.png",
+		src: "/Commercial/Winntus/1.webp",
 	},
 	{
 		title: "Lico Industrial",
-		src: "/Commercial/Lico Industrial/1.png",
+		src: "/Commercial/Lico Industrial/1.webp",
 	},
 	{
 		title: "Cafe In Delhi",
-		src: "/Commercial/Cafe In Delhi/1.png",
+		src: "/Commercial/Cafe In Delhi/1.webp",
 	},
-
 	{
 		title: "Museum",
-		src: "/Commercial/Museum/9.png",
+		src: "/Commercial/Museum/9.webp",
 	},
 ];
 
 export const portfolioImages = {
 	"Advantech Office": [
-		"/Commercial/Advantech Office/1.png",
+		"/Commercial/Advantech Office/1.webp",
 		"/Commercial/Advantech Office/2.png",
 		"/Commercial/Advantech Office/3.png",
 		"/Commercial/Advantech Office/4.png",
@@ -155,11 +154,11 @@ export const portfolioImages = {
 		"/Commercial/Advantech Office/10.png",
 	],
 	"Fizz Club House": [
-		"/Commercial/Fizz Club House/1.png",
+		"/Commercial/Fizz Club House/1.webp",
 		"/Commercial/Fizz Club House/2.png",
 		"/Commercial/Fizz Club House/3.png",
 		"/Commercial/Fizz Club House/4.png",
-		"/Commercial/Fizz Club House/5.png",
+		"/Commercial/Fizz Club House/5.webp",
 		"/Commercial/Fizz Club House/6.png",
 		"/Commercial/Fizz Club House/7.png",
 		"/Commercial/Fizz Club House/8.png",
@@ -170,7 +169,7 @@ export const portfolioImages = {
 		"/Commercial/Fizz Club House/13.png",
 	],
 	"Manjhu": [
-		"/Commercial/Manjhu/1.png",
+		"/Commercial/Manjhu/1.webp",
 		"/Commercial/Manjhu/2.png",
 		"/Commercial/Manjhu/3.png",
 		"/Commercial/Manjhu/4.png",
@@ -180,10 +179,10 @@ export const portfolioImages = {
 		"/Commercial/Manjhu/8.png",
 	],
 	"Realstate": [
-		"/Commercial/Realstate/1.png",
+		"/Commercial/Realstate/1.webp",
 		"/Commercial/Realstate/2.png",
 		"/Commercial/Realstate/3.png",
-		"/Commercial/Realstate/4.png",
+		"/Commercial/Realstate/4.webp",
 		"/Commercial/Realstate/5.png",
 		"/Commercial/Realstate/6.png",
 		"/Commercial/Realstate/7.png",
@@ -194,7 +193,7 @@ export const portfolioImages = {
 		"/Commercial/Realstate/12.png",
 	],
 	"Fire Office": [
-		"/Commercial/Fire Office/1.png",
+		"/Commercial/Fire Office/1.webp",
 		"/Commercial/Fire Office/2.png",
 		"/Commercial/Fire Office/3.png",
 		"/Commercial/Fire Office/4.png",
@@ -208,7 +207,7 @@ export const portfolioImages = {
 		"/Commercial/Fire Office/12.png",
 	],
 	"Neha Vikram": [
-		"/Commercial/Neha Vikram/1.png",
+		"/Commercial/Neha Vikram/1.webp",
 		"/Commercial/Neha Vikram/2.png",
 		"/Commercial/Neha Vikram/3.png",
 		"/Commercial/Neha Vikram/4.png",
@@ -218,9 +217,9 @@ export const portfolioImages = {
 		"/Commercial/Neha Vikram/8.png",
 	],
 	"Priynka Kolkata": [
-		"/Commercial/Priynka Kolkata/1.png",
+		"/Commercial/Priynka Kolkata/1.webp",
 		"/Commercial/Priynka Kolkata/2.png",
-		"/Commercial/Priynka Kolkata/3.png",
+		"/Commercial/Priynka Kolkata/3.webp",
 		"/Commercial/Priynka Kolkata/4.png",
 		"/Commercial/Priynka Kolkata/5.png",
 		"/Commercial/Priynka Kolkata/6.png",
@@ -229,7 +228,7 @@ export const portfolioImages = {
 		"/Commercial/Priynka Kolkata/9.png",
 	],
 	"Punjabi Dhaba": [
-		"/Commercial/Punjabi Dhaba/1.png",
+		"/Commercial/Punjabi Dhaba/1.webp",
 		"/Commercial/Punjabi Dhaba/2.png",
 		"/Commercial/Punjabi Dhaba/3.png",
 		"/Commercial/Punjabi Dhaba/4.png",
@@ -246,7 +245,7 @@ export const portfolioImages = {
 		"/Commercial/Punjabi Dhaba/15.png",
 	],
 	"Winntus": [
-		"/Commercial/Winntus/1.png",
+		"/Commercial/Winntus/1.webp",
 		"/Commercial/Winntus/2.png",
 		"/Commercial/Winntus/3.png",
 		"/Commercial/Winntus/4.png",
@@ -258,13 +257,13 @@ export const portfolioImages = {
 		"/Commercial/Winntus/10.png",
 	],
 	"Lico Industrial": [
-		"/Commercial/Lico Industrial/1.png",
+		"/Commercial/Lico Industrial/1.webp",
 		"/Commercial/Lico Industrial/2.png",
 		"/Commercial/Lico Industrial/3.png",
 		"/Commercial/Lico Industrial/4.png",
 		"/Commercial/Lico Industrial/5.png",
 		"/Commercial/Lico Industrial/6.png",
-		"/Commercial/Lico Industrial/7.png",
+		"/Commercial/Lico Industrial/7.webp",
 		"/Commercial/Lico Industrial/8.png",
 		"/Commercial/Lico Industrial/9.png",
 		"/Commercial/Lico Industrial/10.png",
@@ -275,7 +274,7 @@ export const portfolioImages = {
 		"/Commercial/Lico Industrial/15.png",
 	],
 	"Cafe In Delhi": [
-		"/Commercial/Cafe In Delhi/1.png",
+		"/Commercial/Cafe In Delhi/1.webp",
 		"/Commercial/Cafe In Delhi/2.png",
 		"/Commercial/Cafe In Delhi/3.png",
 		"/Commercial/Cafe In Delhi/4.png",
@@ -294,17 +293,17 @@ export const portfolioImages = {
 		"/Commercial/Museum/6.png",
 		"/Commercial/Museum/7.png",
 		"/Commercial/Museum/8.png",
-		"/Commercial/Museum/9.png",
+		"/Commercial/Museum/9.webp",
 		"/Commercial/Museum/10.png",
 		"/Commercial/Museum/11.png",
 	],
 	"Abhishek": [
 		"/Residential/Abhishek/1.png",
-		"/Residential/Abhishek/2.png",
+		"/Residential/Abhishek/2.webp",
 		"/Residential/Abhishek/3.png",
 		"/Residential/Abhishek/4.png",
-		"/Residential/Abhishek/5.png",
-		"/Residential/Abhishek/6.png",
+		"/Residential/Abhishek/5.webp",
+		"/Residential/Abhishek/6.webp",
 		"/Residential/Abhishek/7.png",
 		"/Residential/Abhishek/8.png",
 		"/Residential/Abhishek/9.png",
@@ -325,18 +324,18 @@ export const portfolioImages = {
 		"/Residential/Abhishek/24.png",
 	],
 	"Manjhunath": [
-		"/Residential/Manjhunath/1.png",
+		"/Residential/Manjhunath/1.webp",
 		"/Residential/Manjhunath/2.png",
 		"/Residential/Manjhunath/3.png",
 		"/Residential/Manjhunath/4.png",
 		"/Residential/Manjhunath/5.png",
 		"/Residential/Manjhunath/6.png",
 		"/Residential/Manjhunath/7.png",
-		"/Residential/Manjhunath/8.png",
+		"/Residential/Manjhunath/8.webp",
 		"/Residential/Manjhunath/9.png",
 	],
 	"Meera": [
-		"/Residential/Meera/1.png",
+		"/Residential/Meera/1.webp",
 		"/Residential/Meera/2.png",
 		"/Residential/Meera/3.png",
 		"/Residential/Meera/4.png",
@@ -350,7 +349,7 @@ export const portfolioImages = {
 		"/Residential/Meera/12.png",
 	],
 	"Shyam Kunj": [
-		"/Residential/Shyam Kunj/1.png",
+		"/Residential/Shyam Kunj/1.webp",
 		"/Residential/Shyam Kunj/2.png",
 		"/Residential/Shyam Kunj/3.png",
 		"/Residential/Shyam Kunj/4.png",
@@ -367,8 +366,8 @@ export const portfolioImages = {
 		"/Residential/Shyam Kunj/15.png",
 	],
 	"Swetha": [
-		"/Residential/Swetha/1.png",
-		"/Residential/Swetha/2.png",
+		"/Residential/Swetha/1.webp",
+		"/Residential/Swetha/2.webp",
 		"/Residential/Swetha/3.png",
 		"/Residential/Swetha/4.png",
 		"/Residential/Swetha/5.png",
@@ -382,7 +381,7 @@ export const portfolioImages = {
 		"/Residential/Swetha/13.png",
 	],
 	"Nagarshini": [
-		"/Residential/Nagarshini/1.png",
+		"/Residential/Nagarshini/1.webp",
 		"/Residential/Nagarshini/2.png",
 		"/Residential/Nagarshini/3.png",
 		"/Residential/Nagarshini/4.png",
@@ -403,7 +402,7 @@ export const portfolioImages = {
 		"/Residential/Nagarshini/19.png",
 	],
 	"Bspoq Anser": [
-		"/Residential/Bspoq Anser/1.png",
+		"/Residential/Bspoq Anser/1.webp",
 		"/Residential/Bspoq Anser/2.png",
 		"/Residential/Bspoq Anser/3.png",
 		"/Residential/Bspoq Anser/4.png",
@@ -416,7 +415,7 @@ export const portfolioImages = {
 		"/Residential/Bspoq Anser/11.png",
 	],
 	"Mushraf": [
-		"/Residential/Mushraf/1.png",
+		"/Residential/Mushraf/1.webp",
 		"/Residential/Mushraf/2.png",
 		"/Residential/Mushraf/3.png",
 		"/Residential/Mushraf/4.png",
@@ -438,7 +437,7 @@ export const portfolioImages = {
 		"/Residential/Mushraf/20.png",
 	],
 	"Praveen": [
-		"/Residential/Praveen/1.png",
+		"/Residential/Praveen/1.webp",
 		"/Residential/Praveen/2.png",
 		"/Residential/Praveen/3.png",
 		"/Residential/Praveen/4.png",
@@ -454,7 +453,7 @@ export const portfolioImages = {
 		"/Residential/Praveen/15.png",
 	],
 	"Vaisnavi": [
-		"/Residential/Vaisnavi/1.png",
+		"/Residential/Vaisnavi/1.webp",
 		"/Residential/Vaisnavi/2.png",
 		"/Residential/Vaisnavi/3.png",
 		"/Residential/Vaisnavi/4.png",
@@ -468,8 +467,8 @@ export const portfolioImages = {
 		"/Residential/Vaisnavi/12.png",
 	],
 	"Bimalji": [
-		"/Residential/Bimalji/1.png",
-		"/Residential/Bimalji/2.png",
+		"/Residential/Bimalji/1.webp",
+		"/Residential/Bimalji/2.webp",
 		"/Residential/Bimalji/3.png",
 		"/Residential/Bimalji/4.png",
 		"/Residential/Bimalji/5.png",
@@ -478,11 +477,11 @@ export const portfolioImages = {
 		"/Residential/Bimalji/8.png",
 		"/Residential/Bimalji/9.png",
 		"/Residential/Bimalji/10.png",
-		"/Residential/Bimalji/11.png",
+		"/Residential/Bimalji/11.webp",
 	],
 	"Vaisnavi 2": [
-		"/Residential/Vaisnavi 2/1.png",
-		"/Residential/Vaisnavi 2/2.png",
+		"/Residential/Vaisnavi 2/1.webp",
+		"/Residential/Vaisnavi 2/2.webp",
 		"/Residential/Vaisnavi 2/3.png",
 		"/Residential/Vaisnavi 2/4.png",
 		"/Residential/Vaisnavi 2/5.png",

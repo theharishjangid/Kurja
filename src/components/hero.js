@@ -5,16 +5,16 @@ import { ImagesSlider } from "../components/ui/images-slider";
 
 const HeroSection = () => {
 	const images = [
-		"/Residential/Vaisnavi 2/1.png",
-		"/Commercial/Fizz Club House/5.png",
-		"/Residential/Abhishek/5.png",
-		"/Commercial/Manjhu/1.png",
-		"/Residential/Bimalji/11.png",
-		"/Commercial/Priynka Kolkata/3.png",
-		"/Residential/Bimalji/2.png",
-		"/Commercial/Realstate/1.png",
-		"/Residential/Swetha/2.png",
-		"/Commercial/Realstate/4.png",
+		"/Residential/Vaisnavi 2/1.webp",
+		"/Commercial/Fizz Club House/5.webp",
+		"/Residential/Abhishek/5.webp",
+		"/Commercial/Manjhu/1.webp",
+		"/Residential/Bimalji/11.webp",
+		"/Commercial/Priynka Kolkata/3.webp",
+		"/Residential/Bimalji/2.webp",
+		"/Commercial/Realstate/1.webp",
+		"/Residential/Swetha/2.webp",
+		"/Commercial/Realstate/4.webp",
 	];
 	return (
 		<ImagesSlider
