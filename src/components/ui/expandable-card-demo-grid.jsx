@@ -7,7 +7,7 @@ import { IoClose } from "react-icons/io5";
 import { teamData } from "@/constants";
 
 export default function CoreTeam() {
-	const cards = teamData.filter(item => item.type === "core")
+	const cards = teamData.filter((item) => item.type === "core");
 	const [active, setActive] = useState(null);
 	const id = useId();
 	const ref = useRef(null);
@@ -137,4 +137,3 @@ export default function CoreTeam() {
 		</>
 	);
 }
-

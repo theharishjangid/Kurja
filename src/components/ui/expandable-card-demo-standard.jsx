@@ -7,7 +7,7 @@ import { IoClose } from "react-icons/io5";
 import { teamData } from "@/constants";
 
 export default function DesignTeam() {
-	const cards = teamData.filter(item => item.type !== "core")
+	const cards = teamData.filter((item) => item.type !== "core");
 	const [active, setActive] = useState(null);
 	const ref = useRef(null);
 	const id = useId();

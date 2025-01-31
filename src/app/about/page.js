@@ -1,6 +1,7 @@
 import AboutHero from "@/components/aboutHero";
 import CoreTeam from "@/components/ui/expandable-card-demo-grid";
 import DesignTeam from "@/components/ui/expandable-card-demo-standard";
+import { InfiniteMovingLogos } from "@/components/ui/infinite-moving-logos";
 import JourneySection from "@/components/journey";
 import { Counter } from "@/components/ui/counter-animation";
 
@@ -8,6 +9,9 @@ const About = () => {
 	return (
 		<main className="flex flex-col mb-4 md:mb-8">
 			<AboutHero />
+			<div className="w-full bg-neutral-100 sm:py-2 md:py-4">
+				<InfiniteMovingLogos direction="left" speed="normal" />
+			</div>
 			<JourneySection />
 			<div className="bg-neutral-100">
 				<div className="grid grid-cols-2 md:grid-cols-4 gap-8 my-10 md:my-16 text-center">
@@ -41,8 +45,8 @@ const About = () => {
 				</div>
 			</div>
 			<p className="pt-10 font-light uppercase text-xs sm:text-sm md:text-md text-center ">
-			Meet Our Team
-				</p>
+				Meet Our Team
+			</p>
 			<h1 className="self-center text-2xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r to-orange-300 via-red-400 from-red-600 inline-block">
 				Where Design Meets Mastery
 			</h1>

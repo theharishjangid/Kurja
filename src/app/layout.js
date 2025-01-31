@@ -26,8 +26,7 @@ export const metadata = {
 	"twitter:title": "Kurja Interiors",
 	"twitter:description":
 		"Kurja Interiors crafts unique interior designs for residential and commercial spaces. Let us bring your vision to life.",
-	"twitter:image":
-		"/logo.webp",
+	"twitter:image": "/logo.webp",
 };
 
 export default function RootLayout({ children }) {

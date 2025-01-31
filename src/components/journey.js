@@ -4,8 +4,8 @@ export default function JourneySection() {
 	return (
 		<section className="container mx-auto px-4 py-10 md:py-16 flex flex-col">
 			<p className="font-light uppercase text-xs sm:text-sm md:text-md text-center ">
-			Our Journey
-				</p>
+				Our Journey
+			</p>
 			<h1 className="mb-7 lg:mb-10 self-center text-2xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r to-orange-300 via-red-400 from-red-600">
 				Where Innovation Meets Legacy
 			</h1>

@@ -4,12 +4,16 @@ import Projects from "@/components/featuredprojects";
 import StrategySection from "@/components/strategies";
 import AboutSection from "@/components/about";
 import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";
+import { InfiniteMovingLogos } from "@/components/ui/infinite-moving-logos";
 import { testimonials } from "@/constants";
 
 export default function Home() {
 	return (
 		<main className="flex flex-col mb-4 md:mb-8">
 			<HeroSection />
+			<div className="w-full bg-neutral-100 sm:py-2 md:py-4">
+				<InfiniteMovingLogos direction="left" speed="normal" />
+			</div>
 			<p className="pt-10 font-light uppercase text-xs sm:text-sm md:text-md text-center">
 				Featured Projects
 			</p>

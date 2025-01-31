@@ -82,3 +82,18 @@
 	-ms-overflow-style: none; /* IE and Edge */
 	scrollbar-width: none; /* Firefox */
 }
+
+@layer utilities {
+	.animate-scroll {
+		animation: scroll var(--animation-duration) linear infinite;
+	}
+}
+
+@keyframes scroll {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(calc(-50% - 1rem));
+	}
+}

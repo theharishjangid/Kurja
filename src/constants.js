@@ -5,6 +5,29 @@ export const navigationLinks = [
 	{ href: "/contact", text: "Contact" },
 ];
 
+export const clients = [
+	{
+		src: "/logo-placeholder.jpg",
+		alt: "Client 1",
+	},
+	{
+		src: "/logo-placeholder.jpg",
+		alt: "Client 2",
+	},
+	{
+		src: "/logo-placeholder.jpg",
+		alt: "Client 3",
+	},
+	{
+		src: "/logo-placeholder.jpg",
+		alt: "Client 4",
+	},
+	{
+		src: "/logo-placeholder.jpg",
+		alt: "Client 5",
+	},
+];
+
 export const testimonials = [
 	{
 		quote: "Our living room is now the perfect blend of elegance and comfort. The team's expertise exceeded all our expectations!",
@@ -217,7 +240,6 @@ export const teamData = [
 			);
 		},
 	},
-
 ];
 
 export const portfolioData = {

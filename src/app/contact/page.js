@@ -25,9 +25,9 @@ const Contact = () => {
 			</div>
 			<div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 my-16 items-center justify-center">
 				<div className="mb-8">
-				<p className="font-light uppercase text-xs sm:text-sm md:text-md text-center ">
-				Inquire & Connect
-				</p>
+					<p className="font-light uppercase text-xs sm:text-sm md:text-md text-center ">
+						Inquire & Connect
+					</p>
 					<h1 className="mb-4 text-center text-2xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r to-orange-300 via-red-400 from-red-600">
 						Where Connections Meet Convenience
 					</h1>
@@ -78,9 +78,9 @@ const Contact = () => {
 			</div>
 			<div className="my-6 sm:my-10 md:my-16 bg-neutral-100">
 				<div className="container mx-auto  py-6 md:py-10">
-				<p className="font-light uppercase text-xs sm:text-sm md:text-md text-center ">
-				Our Unique Advantage
-				</p>
+					<p className="font-light uppercase text-xs sm:text-sm md:text-md text-center ">
+						Our Unique Advantage
+					</p>
 					<h1 className="mb-4 md:mb-10 text-center text-2xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r to-orange-300 via-red-400 from-red-600">
 						Why Choose Kurja?
 					</h1>
@@ -139,9 +139,7 @@ const Contact = () => {
 								</div>
 								<div className="cursor-pointer flex items-center mb-1 hover:shadow-lg hover:shadow-red-100 transform transition ease-linear duration-200 scale-95 hover:scale-100 p-2 rounded-md">
 									<FaPeopleGroup className="w-8 h-8 p-1 mr-2 rounded-md bg-red-50 text-red-600" />
-									<p className="text-gray-600">
-										Expert Team
-									</p>
+									<p className="text-gray-600">Expert Team</p>
 								</div>
 							</div>
 						</div>
@@ -149,8 +147,8 @@ const Contact = () => {
 				</div>
 			</div>
 			<div className="py-4 md:py-10 rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
-			<p className="font-light uppercase text-xs sm:text-sm md:text-md text-center ">
-			What Our Clients Say
+				<p className="font-light uppercase text-xs sm:text-sm md:text-md text-center ">
+					What Our Clients Say
 				</p>
 				<h1 className="mb-4 md:mb-10 text-center text-2xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r to-orange-300 via-red-400 from-red-600">
 					Designs That Speak for Themselves

@@ -6,7 +6,7 @@ export default function Home() {
 	return (
 		<main className="container mx-auto">
 			<p className="mt-10 font-light uppercase text-xs sm:text-sm md:text-md text-center">
-			Our Work in Focus
+				Our Work in Focus
 			</p>
 			<h1 className="text-center mb-12 text-2xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r to-orange-300 via-red-400 from-red-600">
 				Where Vision Meets Reality
@@ -21,10 +21,18 @@ export default function Home() {
 					</TabsList>
 				</div>
 				<TabsContent value="residential">
-					<FocusCards cards={Object.values(portfolioData).filter(item => item.type === "Residential")} />
+					<FocusCards
+						cards={Object.values(portfolioData).filter(
+							(item) => item.type === "Residential"
+						)}
+					/>
 				</TabsContent>
 				<TabsContent value="commercial">
-					<FocusCards cards={Object.values(portfolioData).filter(item => item.type === "Commercial")} />
+					<FocusCards
+						cards={Object.values(portfolioData).filter(
+							(item) => item.type === "Commercial"
+						)}
+					/>
 				</TabsContent>
 			</Tabs>
 		</main>
