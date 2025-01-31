@@ -7,6 +7,7 @@ import { GiPencilRuler, GiPaintRoller } from "react-icons/gi";
 import { LuClock3 } from "react-icons/lu";
 import { RiToolsLine } from "react-icons/ri";
 import { PiHandshakeFill } from "react-icons/pi";
+import { FaPeopleGroup } from "react-icons/fa6";
 
 const Contact = () => {
 	return (
@@ -24,6 +25,9 @@ const Contact = () => {
 			</div>
 			<div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 my-16 items-center justify-center">
 				<div className="mb-8">
+				<p className="font-light uppercase text-xs sm:text-sm md:text-md text-center ">
+				Inquire & Connect
+				</p>
 					<h1 className="mb-4 text-center text-2xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r to-orange-300 via-red-400 from-red-600">
 						Where Connections Meet Convenience
 					</h1>
@@ -33,21 +37,21 @@ const Contact = () => {
 							aria-label="google maps"
 							target="_blank"
 							rel="noreferrer"
-							className="flex items-center">
+							className="flex items-center hover:text-red-600 cursor-pointer">
 							<FiMapPin className="mr-2 h-5 w-5 text-red-600" />
 							123 Design Street, Creative City, 12345
 						</a>
 						<a
 							href="tel:+91 98454 62920"
 							aria-label="phone"
-							className="flex items-center">
+							className="flex items-center hover:text-red-600 cursor-pointer">
 							<FiPhone className="mr-2 h-5 w-5 text-red-600" />
 							(+91) 98454 62920
 						</a>
 						<a
 							href="mailto:info@interiordesign.com"
 							aria-label="email"
-							className="flex items-center">
+							className="flex items-center hover:text-red-600 cursor-pointer">
 							<FiMail className="mr-2 h-5 w-5 text-red-600" />
 							info@interiordesign.com
 						</a>
@@ -55,7 +59,7 @@ const Contact = () => {
 							href="https://wa.me/919845462920?text=Hello%2C%20I%20am%20interested%20in%20Kurja%20Interiors%20design%20services.%20Can%20you%20please%20provide%20more%20details%3F"
 							target="_blank"
 							aria-label="whatsapp"
-							className="flex items-center">
+							className="flex items-center hover:text-red-600 cursor-pointer">
 							<SiWhatsapp className="mr-2 h-5 w-5 text-red-600" />
 							WhatsApp Us
 						</a>
@@ -74,6 +78,9 @@ const Contact = () => {
 			</div>
 			<div className="my-6 sm:my-10 md:my-16 bg-neutral-100">
 				<div className="container mx-auto  py-6 md:py-10">
+				<p className="font-light uppercase text-xs sm:text-sm md:text-md text-center ">
+				Our Unique Advantage
+				</p>
 					<h1 className="mb-4 md:mb-10 text-center text-2xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r to-orange-300 via-red-400 from-red-600">
 						Why Choose Kurja?
 					</h1>
@@ -99,35 +106,41 @@ const Contact = () => {
 							<h2 className="mb-4 text-center text-lg md:text-xl lg:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-green-800 via-green-600 to-lime-500">
 								What Sets Us Apart
 							</h2>
-							<div className="flex flex-col items-start justify-center">
-								<div className="flex items-center mb-1">
-									<LuClock3 className="w-5 h-5 mr-2 text-red-600" />
+							<div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+								<div className="cursor-pointer flex items-center mb-1 hover:shadow-lg hover:shadow-red-100 transform transition ease-linear duration-200 scale-95 hover:scale-100 p-2 rounded-md">
+									<LuClock3 className="w-8 h-8 p-1 mr-2 rounded-md bg-red-50 text-red-600" />
 									<p className="text-gray-600">
 										Timely Delivery
 									</p>
 								</div>
-								<div className="flex items-center mb-1">
-									<GiPencilRuler className="w-5 h-5 mr-2 text-red-600" />
+								<div className="cursor-pointer flex items-center mb-1 hover:shadow-lg hover:shadow-red-100 transform transition ease-linear duration-200 scale-95 hover:scale-100 p-2 rounded-md">
+									<GiPencilRuler className="w-8 h-8 p-1 mr-2 rounded-md bg-red-50 text-red-600" />
 									<p className="text-gray-600">
 										Original Designs
 									</p>
 								</div>
-								<div className="flex items-center mb-1">
-									<GiPaintRoller className="w-5 h-5 mr-2 text-red-600" />
+								<div className="cursor-pointer flex items-center mb-1 hover:shadow-lg hover:shadow-red-100 transform transition ease-linear duration-200 scale-95 hover:scale-100 p-2 rounded-md">
+									<GiPaintRoller className="w-8 h-8 p-1 mr-2 rounded-md bg-red-50 text-red-600" />
 									<p className="text-gray-600">
 										Quality Craftsmanship
 									</p>
 								</div>
-								<div className="flex items-center mb-1">
-									<RiToolsLine className="w-5 h-5 mr-2 text-red-600" />
+								<div className="cursor-pointer flex items-center mb-1 hover:shadow-lg hover:shadow-red-100 transform transition ease-linear duration-200 scale-95 hover:scale-100 p-2 rounded-md">
+									<RiToolsLine className="w-8 h-8 p-1 mr-2 rounded-md bg-red-50 text-red-600" />
 									<p className="text-gray-600">
 										Seamless Execution
 									</p>
 								</div>
-								<div className="flex items-center">
-									<PiHandshakeFill className="w-5 h-5 mr-2 text-red-600" />
+								<div className="cursor-pointer flex items-center mb-1 hover:shadow-lg hover:shadow-red-100 transform transition ease-linear duration-200 scale-95 hover:scale-100 p-2 rounded-md">
+									<PiHandshakeFill className="w-8 h-8 p-1 mr-2 rounded-md bg-red-50 text-red-600" />
 									<p className="text-gray-600">
 										Client-Centric Approach
+									</p>
+								</div>
+								<div className="cursor-pointer flex items-center mb-1 hover:shadow-lg hover:shadow-red-100 transform transition ease-linear duration-200 scale-95 hover:scale-100 p-2 rounded-md">
+									<FaPeopleGroup className="w-8 h-8 p-1 mr-2 rounded-md bg-red-50 text-red-600" />
+									<p className="text-gray-600">
+										Expert Team
 									</p>
 								</div>
 							</div>
@@ -136,6 +149,9 @@ const Contact = () => {
 				</div>
 			</div>
 			<div className="py-4 md:py-10 rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+			<p className="font-light uppercase text-xs sm:text-sm md:text-md text-center ">
+			What Our Clients Say
+				</p>
 				<h1 className="mb-4 md:mb-10 text-center text-2xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r to-orange-300 via-red-400 from-red-600">
 					Designs That Speak for Themselves
 				</h1>

@@ -5,7 +5,10 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 export default function Home() {
 	return (
 		<main className="container mx-auto">
-			<h1 className="text-center my-12 text-2xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r to-orange-300 via-red-400 from-red-600">
+			<p className="mt-10 font-light uppercase text-xs sm:text-sm md:text-md text-center">
+			Our Work in Focus
+			</p>
+			<h1 className="text-center mb-12 text-2xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r to-orange-300 via-red-400 from-red-600">
 				Where Vision Meets Reality
 			</h1>
 			<Tabs defaultValue="residential">

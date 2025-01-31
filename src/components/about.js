@@ -18,8 +18,11 @@ export default function AboutSection() {
 					</div>
 				</div>
 
-				<div className="space-y-6 flex flex-col items-center">
-					<h1 className="text-center text-2xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r to-yellow-600 via-orange-300 from-red-800 inline-block">
+				<div className="flex flex-col items-center">
+					<p className="font-light uppercase text-xs sm:text-sm md:text-md text-center">
+						Designing with Purpose
+					</p>
+					<h1 className="mb-4 md:mb-6 text-center text-2xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r to-yellow-600 via-orange-300 from-red-800 inline-block">
 						Where Elegance Meets Individuality
 					</h1>
 

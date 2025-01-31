@@ -10,7 +10,10 @@ export default function Home() {
 	return (
 		<main className="flex flex-col mb-4 md:mb-8">
 			<HeroSection />
-			<h1 className="self-center pt-10 text-2xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r to-orange-300 via-red-400 from-red-600 inline-block">
+			<p className="pt-10 font-light uppercase text-xs sm:text-sm md:text-md text-center">
+				Featured Projects
+			</p>
+			<h1 className="self-center text-2xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r to-orange-300 via-red-400 from-red-600 inline-block">
 				Where Vision Meets Reality
 			</h1>
 			<Projects />
@@ -36,7 +39,10 @@ export default function Home() {
 					</Link>
 				</div>
 			</div>
-			<h1 className="self-center pt-10 text-2xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r to-orange-300 via-red-400 from-red-600 inline-block">
+			<p className="pt-10 font-light uppercase text-xs sm:text-sm md:text-md text-center">
+				Testimonials
+			</p>
+			<h1 className="self-center text-2xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r to-orange-300 via-red-400 from-red-600 inline-block">
 				Where Design Meets Delight
 			</h1>
 			<AnimatedTestimonials testimonials={testimonials} />

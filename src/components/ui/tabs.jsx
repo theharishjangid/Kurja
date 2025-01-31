@@ -11,7 +11,7 @@ const TabsList = forwardRef(({ className, ...props }, ref) => (
 	<List
 		ref={ref}
 		className={cn(
-			"inline-flex items-center justify-center rounded-lg border shadow-md bg-neutral-100 p-[0.3rem] text-gray-500 self-center",
+			"inline-flex items-center justify-center rounded-lg border border-red-100 shadow-lg shadow-red-100 bg-neutral-100 p-[0.3rem] text-gray-500 self-center",
 			className
 		)}
 		{...props}

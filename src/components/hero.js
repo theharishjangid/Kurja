@@ -34,7 +34,10 @@ const HeroSection = () => {
 					duration: 0.6,
 				}}
 				className="z-50 flex flex-col justify-center items-center">
-				<motion.p className="font-medium mb-4 text-2xl sm:text-3xl md:text-6xl text-center bg-clip-text text-white bg-gradient-to-b from-neutral-50 to-neutral-400 py-4">
+				<motion.p className="font-light mb-2 uppercase text-sm sm:text-md md:text-lg text-center text-gray-300 pt-4">
+					Looking to Transform Your Place?
+				</motion.p>
+				<motion.p className="font-medium mb-4 text-2xl sm:text-3xl md:text-6xl text-center bg-clip-text text-white bg-gradient-to-b from-neutral-50 to-neutral-400 pb-4">
 					Get a Designer <br /> Space You'll Love
 				</motion.p>
 				<Link href="/portfolio">

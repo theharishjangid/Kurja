@@ -4,6 +4,9 @@ export default function StrategySection() {
 	return (
 		<section className="bg-neutral-100">
 			<div className="container mx-auto flex flex-col items-center py-10 md:py-14">
+				<p className="font-light uppercase text-xs sm:text-sm md:text-md text-center ">
+					Blueprint for Success
+				</p>
 				<h1 className="text-2xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r to-orange-300 via-red-400 from-red-600 inline-block">
 					Where Process Meets Perfection
 				</h1>
