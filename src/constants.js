@@ -7,24 +7,44 @@ export const navigationLinks = [
 
 export const clients = [
 	{
-		src: "/logo-placeholder.jpg",
-		alt: "Client 1",
+		src: "/CompanyLogos/Artyss Studio.svg",
+		name: "Artyss Studio",
 	},
 	{
-		src: "/logo-placeholder.jpg",
-		alt: "Client 2",
+		src: "/CompanyLogos/Bspoqe Associates.avif",
+		name: "Bspoqe Associates",
 	},
 	{
-		src: "/logo-placeholder.jpg",
-		alt: "Client 3",
+		src: "/CompanyLogos/HIL CK Birla.png",
+		name: "HIL CK Birla",
 	},
 	{
-		src: "/logo-placeholder.jpg",
-		alt: "Client 4",
+		src: "/CompanyLogos/InPharma.svg",
+		name: "InPharma",
 	},
 	{
-		src: "/logo-placeholder.jpg",
-		alt: "Client 5",
+		src: "/CompanyLogos/Intonation Research Labs.png",
+		name: "Intonation Research Labs",
+	},
+	{
+		src: "/CompanyLogos/Livspace.avif",
+		name: "Livspace",
+	},
+	{
+		src: "/CompanyLogos/Karnata Housing Department.png",
+		name: "Karnata Housing Department",
+	},
+	{
+		src: "/CompanyLogos/MJ Associates.png",
+		name: "MJ Associates",
+	},
+	{
+		src: "/CompanyLogos/Namma Metro.png",
+		name: "Namma Metro",
+	},
+	{
+		src: "/CompanyLogos/WeDezine.png",
+		name: "WeDezine",
 	},
 ];
 

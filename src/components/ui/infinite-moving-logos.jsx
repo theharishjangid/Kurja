@@ -84,17 +84,17 @@ export const InfiniteMovingLogos = ({
 			<ul
 				ref={scrollerRef}
 				className={cn(
-					"flex min-w-full shrink-0 gap-8 py-4 w-max flex-nowrap",
+					"flex min-w-full shrink-0 gap-8 w-max flex-nowrap items-center",
 					start && "animate-scroll",
 					pauseOnHover && "hover:[animation-play-state:paused]"
 				)}>
 				{clients.map((item, idx) => (
 					<li
-						className="w-[150px] max-w-full relative flex-shrink-0"
-						key={item.alt}>
+						className="w-[100px] sm:w-[150px] max-w-full relative flex-shrink-0"
+						key={item.name}>
 						<Image
 							src={item.src}
-							alt={item.alt}
+							alt={item.name}
 							width={100}
 							height={100}
 							className="object-contain"
