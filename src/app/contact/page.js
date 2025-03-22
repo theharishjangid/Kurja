@@ -31,15 +31,16 @@ const Contact = () => {
 					<h1 className="mb-4 text-center text-2xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r to-orange-300 via-red-400 from-red-600">
 						Where Connections Meet Convenience
 					</h1>
-					<div className="space-y-2 flex flex-col items-center p-4 text-gray-600">
+					<div className="space-y-2 flex flex-col items-start justify-start p-4 text-gray-600">
 						<a
-							href="https://maps.app.goo.gl/3nnbZLRC8eQyzdqb9"
+							href="https://maps.app.goo.gl/dPnkbARkjK3eX1BD9"
 							aria-label="google maps"
 							target="_blank"
 							rel="noreferrer"
 							className="flex items-center hover:text-red-600 cursor-pointer">
 							<FiMapPin className="mr-2 h-5 w-5 text-red-600" />
-							123 Design Street, Creative City, 12345
+							3rd Block, 51, Herohalli, D Group Employees Layout,
+							Bengaluru, Karnataka 560091
 						</a>
 						<a
 							href="tel:+91 98454 62920"
@@ -67,7 +68,7 @@ const Contact = () => {
 				</div>
 				<div className="h-full mx-4 ">
 					<iframe
-						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55867.463115061604!2d77.51164409351269!3d12.98769642302192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3c5a91ef0a0d%3A0x45f0cf5178970126!2sMohan%20Cinema%204K%203D!5e0!3m2!1sen!2sin!4v1735636444006!5m2!1sen!2sin"
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.55115162445!2d77.4812986750652!3d13.000535187317405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3dc644dafa6b%3A0xc3325212f780b214!2sKURJA%20INTERIOR%20SPACE!5e0!3m2!1sen!2sin!4v1742560022309!5m2!1sen!2sin"
 						width="600"
 						height="450"
 						style={{ border: 0 }}

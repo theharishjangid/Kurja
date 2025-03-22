@@ -6,6 +6,41 @@ import { useOutsideClick } from "@/lib/hooks";
 import { IoClose } from "react-icons/io5";
 import { teamData } from "@/constants";
 
+const generatePlaceholder = (text, width = 500, height = 500) => {
+	const canvas = document.createElement("canvas");
+	canvas.width = width;
+	canvas.height = height;
+	const ctx = canvas.getContext("2d");
+
+	const gradient = ctx.createLinearGradient(0, 0, width, 0);
+	gradient.addColorStop(0, "#dc2626"); // from-red-600
+	gradient.addColorStop(0.5, "#f87171"); // via-red-400
+	gradient.addColorStop(1, "#fdba74"); // to-orange-300
+	ctx.fillStyle = gradient;
+	ctx.fillRect(0, 0, width, height);
+
+	ctx.fillStyle = "#fff";
+	ctx.font = "bold 48px sans-serif";
+	ctx.textAlign = "center";
+	ctx.textBaseline = "middle";
+	ctx.fillText(text, width / 2, height / 2);
+
+	return canvas.toDataURL();
+};
+
+const getInitials = (name) => {
+	if (!name) return "";
+	const names = name.split(" ");
+	let initials = "";
+	for (let i = 0; i < names.length; i++) {
+		if (names[i].length > 0) {
+			initials += names[i][0].toUpperCase();
+		}
+		if (initials.length >= 2) break;
+	}
+	return initials;
+};
+
 export default function DesignTeam() {
 	const cards = teamData.filter((item) => item.type !== "core");
 	const [active, setActive] = useState(null);
@@ -56,7 +91,12 @@ export default function DesignTeam() {
 									priority
 									width={500}
 									height={500}
-									src={active.src}
+									src={
+										active.src ||
+										generatePlaceholder(
+											getInitials(active.title)
+										)
+									}
 									alt={active.title}
 									className="w-full h-80 lg:h-80 sm:rounded-tr-lg sm:rounded-tl-lg object-cover"
 								/>
@@ -113,7 +153,14 @@ export default function DesignTeam() {
 								<Image
 									width={100}
 									height={100}
-									src={card.src}
+									src={
+										card.src ||
+										generatePlaceholder(
+											getInitials(card.title),
+											100,
+											100
+										)
+									}
 									alt={card.title}
 									className="h-40 w-40 md:h-14 md:w-14 rounded-lg object-cover"
 								/>

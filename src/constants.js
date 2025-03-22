@@ -132,7 +132,6 @@ export const teamData = [
 	{
 		description: "Designer 1",
 		title: "Sunil Kumar",
-		src: "https://images.unsplash.com/photo-1623582854588-d60de57fa33f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 		content: () => {
 			return (
 				<p>
@@ -155,7 +154,6 @@ export const teamData = [
 	{
 		description: "Designer 2",
 		title: "Ravi Patel",
-		src: "https://images.unsplash.com/photo-1623582854588-d60de57fa33f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 		content: () => {
 			return (
 				<p>
@@ -174,11 +172,9 @@ export const teamData = [
 			);
 		},
 	},
-
 	{
 		description: "Designer 3",
 		title: "Vinod Kumar",
-		src: "https://images.unsplash.com/photo-1623582854588-d60de57fa33f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 		content: () => {
 			return (
 				<p>
@@ -200,7 +196,6 @@ export const teamData = [
 	{
 		description: "Designer 4",
 		title: "Abhishek Sharma",
-		src: "https://images.unsplash.com/photo-1623582854588-d60de57fa33f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 		content: () => {
 			return (
 				<p>
@@ -221,7 +216,6 @@ export const teamData = [
 	{
 		description: "Designer 5",
 		title: "Priya Jain",
-		src: "https://images.unsplash.com/photo-1623582854588-d60de57fa33f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 		content: () => {
 			return (
 				<p>
@@ -242,7 +236,6 @@ export const teamData = [
 	{
 		description: "Designer 6",
 		title: "Sanjana Rao",
-		src: "https://images.unsplash.com/photo-1623582854588-d60de57fa33f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 		content: () => {
 			return (
 				<p>
