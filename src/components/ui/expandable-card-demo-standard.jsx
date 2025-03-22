@@ -6,28 +6,6 @@ import { useOutsideClick } from "@/lib/hooks";
 import { IoClose } from "react-icons/io5";
 import { teamData } from "@/constants";
 
-const generatePlaceholder = (text, width = 500, height = 500) => {
-	const canvas = document.createElement("canvas");
-	canvas.width = width;
-	canvas.height = height;
-	const ctx = canvas.getContext("2d");
-
-	const gradient = ctx.createLinearGradient(0, 0, width, 0);
-	gradient.addColorStop(0, "#dc2626"); // from-red-600
-	gradient.addColorStop(0.5, "#f87171"); // via-red-400
-	gradient.addColorStop(1, "#fdba74"); // to-orange-300
-	ctx.fillStyle = gradient;
-	ctx.fillRect(0, 0, width, height);
-
-	ctx.fillStyle = "#fff";
-	ctx.font = "bold 48px sans-serif";
-	ctx.textAlign = "center";
-	ctx.textBaseline = "middle";
-	ctx.fillText(text, width / 2, height / 2);
-
-	return canvas.toDataURL();
-};
-
 const getInitials = (name) => {
 	if (!name) return "";
 	const names = name.split(" ");
@@ -87,19 +65,20 @@ export default function DesignTeam() {
 							className="w-full max-w-[500px]  h-full md:h-fit md:max-h-[90%]  flex flex-col bg-white dark:bg-neutral-900 sm:rounded-3xl overflow-hidden">
 							<motion.div
 								layoutId={`image-${active.title}-${id}`}>
-								<Image
-									priority
-									width={500}
-									height={500}
-									src={
-										active.src ||
-										generatePlaceholder(
-											getInitials(active.title)
-										)
-									}
-									alt={active.title}
-									className="w-full h-80 lg:h-80 sm:rounded-tr-lg sm:rounded-tl-lg object-cover"
-								/>
+								{active.src ? (
+									<Image
+										priority
+										width={500}
+										height={500}
+										src={active.src}
+										alt={active.title}
+										className="w-full h-80 sm:rounded-tr-lg sm:rounded-tl-lg object-cover"
+									/>
+								) : (
+									<div className="w-full h-80 sm:rounded-tr-lg sm:rounded-tl-lg bg-gradient-to-r to-orange-300 via-red-400 from-red-600 flex items-center justify-center text-white font-bold text-8xl">
+										{getInitials(active.title)}
+									</div>
+								)}
 							</motion.div>
 
 							<div>
@@ -150,20 +129,19 @@ export default function DesignTeam() {
 						className="p-4 flex flex-col md:flex-row justify-between items-center md:bg-neutral-100 hover:shadow-md border border-white hover:border-gray-200 rounded-xl cursor-pointer">
 						<div className="flex gap-4 flex-col md:flex-row ">
 							<motion.div layoutId={`image-${card.title}-${id}`}>
-								<Image
-									width={100}
-									height={100}
-									src={
-										card.src ||
-										generatePlaceholder(
-											getInitials(card.title),
-											100,
-											100
-										)
-									}
-									alt={card.title}
-									className="h-40 w-40 md:h-14 md:w-14 rounded-lg object-cover"
-								/>
+								{card.src ? (
+									<Image
+										width={100}
+										height={100}
+										src={card.src}
+										alt={card.title}
+										className="h-40 w-40 md:h-14 md:w-14 rounded-lg object-cover"
+									/>
+								) : (
+									<div className="h-40 w-40 md:h-14 md:w-14 rounded-lg bg-gradient-to-r to-orange-300 via-red-400 from-red-600 flex items-center justify-center text-white font-bold text-5xl md:text-xl">
+										{getInitials(card.title)}
+									</div>
+								)}
 							</motion.div>
 							<div className="">
 								<motion.h3
