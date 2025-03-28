@@ -9,25 +9,38 @@ const roboto = Roboto({
 });
 
 export const metadata = {
-	title: "Kurja Interiors",
+	title: "Kurja Interior Space: Luxury Interior Designers in Bengaluru, India",
 	description:
-		"Kurja Interiors specializes in creating stunning and functional interior designs for residential and commercial spaces. Explore our bespoke solutions tailored to elevate your lifestyle and work environment.",
+	  "Kurja Interior Space crafts bespoke luxury interior designs for residential and commercial spaces. Discover our innovative solutions, from modern homes to elegant offices. Contact us for a consultation.",
 	keywords:
-		"Kurja Interiors, interior design, residential interiors, commercial interiors, bespoke interiors, space planning, home decor, office decor",
-	author: "Kurja Interiors",
+	  "luxury interior design, interior designers, residential interior design, commercial interior design, home decor, office design, bespoke interiors, space planning, modern interior design, Bengaluru interior design, Bengaluru interior designers, interior design company, interior design services",
+	author: "Kurja Interior Space",
 	robots: "index, follow",
-	"og:title": "Kurja Interiors",
-	"og:description":
-		"Discover beautiful and functional interior designs tailored to your needs. Kurja Interiors offers customized solutions for homes and offices.",
-	"og:image": "/logo.webp",
-	"og:url": "https://kurjainteriors.com",
-	"og:type": "website",
-	"twitter:card": "summary_large_image",
-	"twitter:title": "Kurja Interiors",
-	"twitter:description":
-		"Kurja Interiors crafts unique interior designs for residential and commercial spaces. Let us bring your vision to life.",
-	"twitter:image": "/logo.webp",
-};
+	openGraph: {
+	  title: "Kurja Interior Space: Transform Your Space with Luxury Design",
+	  description:
+		"Experience the art of luxury interior design with Kurja Interior Space. We specialize in creating stunning residential and commercial spaces tailored to your unique vision.",
+	  url: "https://kurjainteriors.com",
+	  siteName: "Kurja Interior Space",
+	  images: [
+		{
+		  url: "/thumbnail.webp",
+		  width: 800,
+		  height: 600,
+		  alt: "Kurja Interior Space Logo",
+		},
+	  ],
+	  type: "website",
+	},
+	twitter: {
+	  card: "summary_large_image",
+	  title: "Kurja Interior Space: Elevating Spaces with Exquisite Design",
+	  description:
+		"Kurja Interior Space delivers exceptional interior design services for homes and businesses. Let us transform your space into a masterpiece.",
+	  images: ["/thumbnail.webp"],
+	},
+  };
+
 
 export default function RootLayout({ children }) {
 	return (

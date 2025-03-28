@@ -14,11 +14,14 @@ export default function ContactForm() {
 	});
 
 	const [errors, setErrors] = useState({});
+	const [isSubmitting, setIsSubmitting] = useState(false);
+	const [submitStatus, setSubmitStatus] = useState(null); // 'success', 'error', null
 
 	const handleChange = (e) => {
 		const { id, value } = e.target;
 		setFormData({ ...formData, [id]: value });
 		setErrors({ ...errors, [id]: "" }); // Clear error when input changes
+		setSubmitStatus(null); // Clear submit status on change
 	};
 
 	const validateForm = () => {
@@ -60,23 +63,48 @@ export default function ContactForm() {
 		return isValid;
 	};
 
-	const handleSubmit = (e) => {
+	const handleSubmit = async (e) => {
 		e.preventDefault();
 		if (validateForm()) {
-			console.log("Form submitted", formData);
-			// Reset form data after successful submission
-			setFormData({
-				firstname: "",
-				lastname: "",
-				email: "",
-				phone: "",
-				message: "",
-			});
-			setErrors({});
+			setIsSubmitting(true);
+			setSubmitStatus(null); // Reset status before submitting
+
+			try {
+				const response = await fetch("/api/send", {
+					method: "POST",
+					headers: {
+						"Content-Type": "application/json",
+					},
+					body: JSON.stringify(formData),
+				});
+
+				if (response.ok) {
+					console.log("Form submitted successfully");
+					setSubmitStatus("success");
+					// Reset form data after successful submission
+					setFormData({
+						firstname: "",
+						lastname: "",
+						email: "",
+						phone: "",
+						message: "",
+					});
+					setErrors({});
+				} else {
+					console.error("Form submission failed");
+					setSubmitStatus("error");
+				}
+			} catch (error) {
+				console.error("Error submitting form:", error);
+				setSubmitStatus("error");
+			} finally {
+				setIsSubmitting(false);
+			}
 		} else {
 			console.log("Form has errors");
 		}
 	};
+
 	return (
 		<div className="rounded-none sm:rounded-xl w-full sm:w-auto p-4 md:p-8 shadow-input bg-white">
 			<h2 className="text-center text-xl text-transparent bg-clip-text bg-gradient-to-r to-orange-300 via-red-400 from-red-600">
@@ -88,7 +116,7 @@ export default function ContactForm() {
 			</p>
 			<form onSubmit={handleSubmit}>
 				<div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mb-4">
-					<LabelInputContainer error={errors.firstname}>
+					<div className="flex flex-col space-y-2 w-full">
 						<Label htmlFor="firstname">First name</Label>
 						<Input
 							id="firstname"
@@ -96,14 +124,15 @@ export default function ContactForm() {
 							type="text"
 							value={formData.firstname}
 							onChange={handleChange}
+							disabled={isSubmitting}
 						/>
 						{errors.firstname && (
 							<p className="text-red-500 text-sm">
 								{errors.firstname}
 							</p>
 						)}
-					</LabelInputContainer>
-					<LabelInputContainer error={errors.lastname}>
+					</div>
+					<div className="flex flex-col space-y-2 w-full">
 						<Label htmlFor="lastname">Last name</Label>
 						<Input
 							id="lastname"
@@ -111,15 +140,16 @@ export default function ContactForm() {
 							type="text"
 							value={formData.lastname}
 							onChange={handleChange}
+							disabled={isSubmitting}
 						/>
 						{errors.lastname && (
 							<p className="text-red-500 text-sm">
 								{errors.lastname}
 							</p>
 						)}
-					</LabelInputContainer>
+					</div>
 				</div>
-				<LabelInputContainer error={errors.email} className="mb-4">
+				<div className="flex flex-col space-y-2 w-full h-fit mb-4">
 					<Label htmlFor="email">Email Address</Label>
 					<Input
 						id="email"
@@ -127,14 +157,13 @@ export default function ContactForm() {
 						type="email"
 						value={formData.email}
 						onChange={handleChange}
+						disabled={isSubmitting}
 					/>
 					{errors.email && (
-						<p className="text-red-500 text-sm">
-							{errors.email}
-						</p>
+						<p className="text-red-500 text-sm">{errors.email}</p>
 					)}
-				</LabelInputContainer>
-				<LabelInputContainer error={errors.phone} className="mb-4">
+				</div>
+				<div className="flex flex-col space-y-2 w-full h-fit mb-4">
 					<Label htmlFor="phone">Phone</Label>
 					<Input
 						id="phone"
@@ -142,34 +171,44 @@ export default function ContactForm() {
 						type="tel"
 						value={formData.phone}
 						onChange={handleChange}
+						disabled={isSubmitting}
 					/>
 					{errors.phone && (
-						<p className="text-red-500 text-sm">
-							{errors.phone}
-						</p>
+						<p className="text-red-500 text-sm">{errors.phone}</p>
 					)}
-				</LabelInputContainer>
-				<LabelInputContainer error={errors.message} className="mb-8 h-fit">
+				</div>
+				<div
+					className="flex flex-col space-y-2 w-full mb-8 h-fit">
 					<Label htmlFor="message">Message</Label>
 					<TextArea
 						id="message"
 						placeholder="Your query..."
 						value={formData.message}
 						onChange={handleChange}
+						disabled={isSubmitting}
 					/>
 					{errors.message && (
-						<p className="text-red-500 text-sm">
-							{errors.message}
-						</p>
+						<p className="text-red-500 text-sm">{errors.message}</p>
 					)}
-				</LabelInputContainer>
+				</div>
 
 				<button
 					aria-label="Submit"
 					className="relative group/btn bg-gradient-to-r to-orange-300 via-red-400 from-red-600 w-full text-white rounded-md h-10 font-medium hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out"
-					type="submit">
-					Submit
+					type="submit"
+					disabled={isSubmitting}>
+					{isSubmitting ? "Submitting..." : "Submit"}
 				</button>
+				{submitStatus === "success" && (
+					<p className="text-green-500 text-center mt-2">
+						Message sent successfully!
+					</p>
+				)}
+				{submitStatus === "error" && (
+					<p className="text-red-500 text-center mt-2">
+						Something went wrong. Please try again.
+					</p>
+				)}
 			</form>
 		</div>
 	);

@@ -16,7 +16,7 @@ const About = () => {
 			<div className="bg-neutral-100">
 				<div className="grid grid-cols-2 md:grid-cols-4 gap-8 my-10 md:my-16 text-center">
 					<div className="space-y-2">
-						<Counter end={10} />
+						<Counter end={3} />
 						<p className="text-sm md:text-base text-transparent bg-clip-text bg-gradient-to-r from-green-800 via-green-600 to-lime-500 font-medium uppercase tracking-wider">
 							Years Legacy
 						</p>
