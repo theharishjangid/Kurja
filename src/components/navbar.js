@@ -39,7 +39,7 @@ const Navbar = () => {
 				<Link href="/contact">
 					<button
 						aria-label="Hire Us or Contact"
-						className="hidden sm:block px-8 py-2 bg-gradient-to-r to-orange-300 via-red-400 from-red-600 text-white text-sm rounded-md font-semibold hover:shadow-lg">
+						className="hidden sm:block px-8 py-2 bg-gradient-to-r to-orange-300 via-red-400 from-red-600 text-white text-sm rounded-md font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out">
 						Hire Us
 					</button>
 				</Link>
@@ -75,7 +75,7 @@ const Navbar = () => {
 					<Link href="/contact">
 						<button
 							aria-label="Hire Us or Contact"
-							className="px-8 py-2  bg-gradient-to-r to-orange-300 via-red-400 from-red-600 text-white text-sm rounded-md font-semibold hover:bg-red-600 hover:shadow-lg">
+							className="px-8 py-2  bg-gradient-to-r to-orange-300 via-red-400 from-red-600 text-white text-sm rounded-md font-semibold hover:bg-red-600 hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out">
 							Hire Us
 						</button>
 					</Link>

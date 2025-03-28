@@ -39,8 +39,7 @@ const Contact = () => {
 							rel="noreferrer"
 							className="flex items-center hover:text-red-600 cursor-pointer">
 							<FiMapPin className="mr-2 h-5 w-5 text-red-600" />
-							3rd Block, 51, Herohalli, D Group Employees Layout,
-							Bengaluru, Karnataka 560091
+							#51, 3rd Block, D Group Layout Herohalli, Bengaluru - 560091
 						</a>
 						<a
 							href="tel:+91 98454 62920"
@@ -50,11 +49,11 @@ const Contact = () => {
 							(+91) 98454 62920
 						</a>
 						<a
-							href="mailto:info@interiordesign.com"
+							href="mailto:kurjainteriorspace@gmail.com"
 							aria-label="email"
 							className="flex items-center hover:text-red-600 cursor-pointer">
 							<FiMail className="mr-2 h-5 w-5 text-red-600" />
-							info@interiordesign.com
+							kurjainteriorspace@gmail.com
 						</a>
 						<a
 							href="https://wa.me/919845462920?text=Hello%2C%20I%20am%20interested%20in%20Kurja%20Interiors%20design%20services.%20Can%20you%20please%20provide%20more%20details%3F"
@@ -109,37 +108,37 @@ const Contact = () => {
 							</h2>
 							<div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
 								<div className="cursor-pointer flex items-center mb-1 hover:shadow-lg hover:shadow-red-100 transform transition ease-linear duration-200 scale-95 hover:scale-100 p-2 rounded-md">
-									<LuClock3 className="w-8 h-8 p-1 mr-2 rounded-md bg-red-50 text-red-600" />
+									<LuClock3 className="w-8 h-8 p-1 mr-2 rounded-md text-red-600" />
 									<p className="text-gray-600">
 										Timely Delivery
 									</p>
 								</div>
 								<div className="cursor-pointer flex items-center mb-1 hover:shadow-lg hover:shadow-red-100 transform transition ease-linear duration-200 scale-95 hover:scale-100 p-2 rounded-md">
-									<GiPencilRuler className="w-8 h-8 p-1 mr-2 rounded-md bg-red-50 text-red-600" />
+									<GiPencilRuler className="w-8 h-8 p-1 mr-2 rounded-md text-red-600" />
 									<p className="text-gray-600">
 										Original Designs
 									</p>
 								</div>
 								<div className="cursor-pointer flex items-center mb-1 hover:shadow-lg hover:shadow-red-100 transform transition ease-linear duration-200 scale-95 hover:scale-100 p-2 rounded-md">
-									<GiPaintRoller className="w-8 h-8 p-1 mr-2 rounded-md bg-red-50 text-red-600" />
+									<GiPaintRoller className="w-8 h-8 p-1 mr-2 rounded-md text-red-600" />
 									<p className="text-gray-600">
 										Quality Craftsmanship
 									</p>
 								</div>
 								<div className="cursor-pointer flex items-center mb-1 hover:shadow-lg hover:shadow-red-100 transform transition ease-linear duration-200 scale-95 hover:scale-100 p-2 rounded-md">
-									<RiToolsLine className="w-8 h-8 p-1 mr-2 rounded-md bg-red-50 text-red-600" />
+									<RiToolsLine className="w-8 h-8 p-1 mr-2 rounded-md text-red-600" />
 									<p className="text-gray-600">
 										Seamless Execution
 									</p>
 								</div>
 								<div className="cursor-pointer flex items-center mb-1 hover:shadow-lg hover:shadow-red-100 transform transition ease-linear duration-200 scale-95 hover:scale-100 p-2 rounded-md">
-									<PiHandshakeFill className="w-8 h-8 p-1 mr-2 rounded-md bg-red-50 text-red-600" />
+									<PiHandshakeFill className="w-8 h-8 p-1 mr-2 rounded-md text-red-600" />
 									<p className="text-gray-600">
 										Client-Centric Approach
 									</p>
 								</div>
 								<div className="cursor-pointer flex items-center mb-1 hover:shadow-lg hover:shadow-red-100 transform transition ease-linear duration-200 scale-95 hover:scale-100 p-2 rounded-md">
-									<FaPeopleGroup className="w-8 h-8 p-1 mr-2 rounded-md bg-red-50 text-red-600" />
+									<FaPeopleGroup className="w-8 h-8 p-1 mr-2 rounded-md text-red-600" />
 									<p className="text-gray-600">Expert Team</p>
 								</div>
 							</div>

@@ -16,28 +16,28 @@ const About = () => {
 			<div className="bg-neutral-100">
 				<div className="grid grid-cols-2 md:grid-cols-4 gap-8 my-10 md:my-16 text-center">
 					<div className="space-y-2">
-						<Counter end={8} />
+						<Counter end={10} />
 						<p className="text-sm md:text-base text-transparent bg-clip-text bg-gradient-to-r from-green-800 via-green-600 to-lime-500 font-medium uppercase tracking-wider">
 							Years Legacy
 						</p>
 					</div>
 
 					<div className="space-y-2">
-						<Counter end={20} />
+						<Counter end={15} />
 						<p className="text-sm md:text-base text-transparent bg-clip-text bg-gradient-to-r from-green-800 via-green-600 to-lime-500 font-medium uppercase tracking-wider">
 							Team Members
 						</p>
 					</div>
 
 					<div className="space-y-2">
-						<Counter end={270} />
+						<Counter end={35} />
 						<p className="text-sm md:text-base text-transparent bg-clip-text bg-gradient-to-r from-green-800 via-green-600 to-lime-500 font-medium uppercase tracking-wider">
 							Finished Projects
 						</p>
 					</div>
 
 					<div className="space-y-2">
-						<Counter end={250} />
+						<Counter end={30} />
 						<p className="text-sm md:text-base text-transparent bg-clip-text bg-gradient-to-r from-green-800 via-green-600 to-lime-500 font-medium uppercase tracking-wider">
 							Happy Clients
 						</p>
@@ -55,7 +55,7 @@ const About = () => {
 				creating homes you'll truly love.
 			</h2>
 			<CoreTeam />
-			<DesignTeam />
+			{/* <DesignTeam /> */}
 		</main>
 	);
 };
