@@ -20,7 +20,7 @@ export const metadata = {
 	  title: "Kurja Interior Space: Transform Your Space with Luxury Design",
 	  description:
 		"Experience the art of luxury interior design with Kurja Interior Space. We specialize in creating stunning residential and commercial spaces tailored to your unique vision.",
-	  url: "https://kurjainteriors.com",
+	  url: "https://www.kurjainteriors.in",
 	  siteName: "Kurja Interior Space",
 	  images: [
 		{
