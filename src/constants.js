@@ -90,18 +90,12 @@ export const teamData = [
 		content: () => {
 			return (
 				<p>
-					Lana Del Rey, an iconic American singer-songwriter, is
-					celebrated for her melancholic and cinematic music style.
-					Born Elizabeth Woolridge Grant in New York City, she has
-					captivated audiences worldwide with her haunting voice and
-					introspective lyrics. <br /> <br />
-					Her songs often explore themes of tragic romance, glamour,
-					and melancholia, drawing inspiration from both contemporary
-					and vintage pop culture. With a career that has seen
-					numerous critically acclaimed albums, Lana Del Rey has
-					established herself as a unique and influential figure in
-					the music industry, earning a dedicated fan base and
-					numerous accolades.
+					T.C. Suthar, the visionary founder of Kurja Interior Space,
+					brings decades of experience and a deep passion for design
+					to the company. His leadership and innovative thinking have
+					shaped Kurja into a leading name in the interior design
+					industry. He is committed to excellence and client
+					satisfaction.
 				</p>
 			);
 		},
@@ -114,141 +108,102 @@ export const teamData = [
 		content: () => {
 			return (
 				<p>
-					Metallica, an iconic American heavy metal band, is renowned
-					for their powerful sound and intense performances that
-					resonate deeply with their audience. Formed in Los Angeles,
-					California, they have become a cultural icon in the heavy
-					metal music industry. <br /> <br />
-					Their songs often reflect themes of aggression, social
-					issues, and personal struggles, capturing the essence of the
-					heavy metal genre. With a career spanning over four decades,
-					Metallica has released numerous hit albums and singles that
-					have garnered them a massive fan following both in the
-					United States and abroad.
+					Kanta Suthar, as the Managing Director, plays a pivotal role
+					in overseeing the operations and strategic growth of Kurja
+					Interior Space. With a keen eye for detail and a strong
+					business acumen, she ensures that every project aligns with
+					the company's high standards and client expectations.
 				</p>
 			);
 		},
 	},
 	{
-		description: "Designer 1",
-		title: "Sunil Kumar",
+		description: "Senior Designer",
+		title: "Anjali Shah",
 		content: () => {
 			return (
 				<p>
-					Lana Del Rey, an iconic American singer-songwriter, is
-					celebrated for her melancholic and cinematic music style.
-					Born Elizabeth Woolridge Grant in New York City, she has
-					captivated audiences worldwide with her haunting voice and
-					introspective lyrics. <br /> <br />
-					Her songs often explore themes of tragic romance, glamour,
-					and melancholia, drawing inspiration from both contemporary
-					and vintage pop culture. With a career that has seen
-					numerous critically acclaimed albums, Lana Del Rey has
-					established herself as a unique and influential figure in
-					the music industry, earning a dedicated fan base and
-					numerous accolades.
+					Anjali Shah is a highly skilled Senior Designer at Kurja,
+					known for her innovative design concepts and meticulous
+					attention to detail. With years of experience in the field,
+					she excels at transforming spaces into functional and
+					aesthetically pleasing environments that reflect the unique
+					tastes of each client.
 				</p>
 			);
 		},
 	},
 	{
-		description: "Designer 2",
-		title: "Ravi Patel",
+		description: "Designer",
+		title: "Adarsh HL",
 		content: () => {
 			return (
 				<p>
-					Babu Maan, a legendary Punjabi singer, is renowned for his
-					soulful voice and profound lyrics that resonate deeply with
-					his audience. Born in the village of Khant Maanpur in
-					Punjab, India, he has become a cultural icon in the Punjabi
-					music industry. <br /> <br />
-					His songs often reflect the struggles and triumphs of
-					everyday life, capturing the essence of Punjabi culture and
-					traditions. With a career spanning over two decades, Babu
-					Maan has released numerous hit albums and singles that have
-					garnered him a massive fan following both in India and
-					abroad.
+					Adarsh HL is a talented Designer at Kurja, bringing fresh
+					perspectives and creative solutions to every project. His
+					passion for design and commitment to client satisfaction
+					drive him to create spaces that are both beautiful and
+					practical.
 				</p>
 			);
 		},
 	},
 	{
-		description: "Designer 3",
-		title: "Vinod Kumar",
+		description: "Senior Designer",
+		title: "Meghana NM",
 		content: () => {
 			return (
 				<p>
-					Metallica, an iconic American heavy metal band, is renowned
-					for their powerful sound and intense performances that
-					resonate deeply with their audience. Formed in Los Angeles,
-					California, they have become a cultural icon in the heavy
-					metal music industry. <br /> <br />
-					Their songs often reflect themes of aggression, social
-					issues, and personal struggles, capturing the essence of the
-					heavy metal genre. With a career spanning over four decades,
-					Metallica has released numerous hit albums and singles that
-					have garnered them a massive fan following both in the
-					United States and abroad.
+					Meghana NM is a seasoned Senior Designer at Kurja,
+					recognized for her expertise in blending contemporary trends
+					with timeless design principles. Her ability to understand
+					and interpret client visions allows her to craft spaces that
+					are both personalized and sophisticated.
 				</p>
 			);
 		},
 	},
 	{
-		description: "Designer 4",
-		title: "Abhishek Sharma",
+		description: "Senior Designer",
+		title: "Ishika Agarwal",
 		content: () => {
 			return (
 				<p>
-					Led Zeppelin, a legendary British rock band, is renowned for
-					their innovative sound and profound impact on the music
-					industry. Formed in London in 1968, they have become a
-					cultural icon in the rock music world. <br /> <br />
-					Their songs often reflect a blend of blues, hard rock, and
-					folk music, capturing the essence of the 1970s rock era.
-					With a career spanning over a decade, Led Zeppelin has
-					released numerous hit albums and singles that have garnered
-					them a massive fan following both in the United Kingdom and
-					abroad.
+					Ishika Agarwal, a Senior Designer at Kurja, is celebrated
+					for her creative flair and technical proficiency. She has a
+					knack for creating spaces that are not only visually
+					stunning but also highly functional, ensuring that each
+					design meets the specific needs of the client.
 				</p>
 			);
 		},
 	},
 	{
-		description: "Designer 5",
-		title: "Priya Jain",
+		description: "Finance",
+		title: "Dinesh Suthar",
 		content: () => {
 			return (
 				<p>
-					"Aawarapan", a Bollywood movie starring Emraan Hashmi, is
-					renowned for its intense storyline and powerful
-					performances. Directed by Mohit Suri, the film has become a
-					significant work in the Indian film industry. <br /> <br />
-					The movie explores themes of love, redemption, and
-					sacrifice, capturing the essence of human emotions and
-					relationships. With a gripping narrative and memorable
-					music, "Aawarapan" has garnered a massive fan following both
-					in India and abroad, solidifying Emraan Hashmi's status as a
-					versatile actor.
+					Dinesh Suthar manages the financial operations at Kurja,
+					ensuring the company's fiscal health and stability. His
+					expertise in financial planning and management is crucial to
+					the smooth running of the business, allowing the design team
+					to focus on their creative work.
 				</p>
 			);
 		},
 	},
 	{
-		description: "Designer 6",
-		title: "Sanjana Rao",
+		description: "IT",
+		title: "Rachana Jangid",
 		content: () => {
 			return (
 				<p>
-					"Aawarapan", a Bollywood movie starring Emraan Hashmi, is
-					renowned for its intense storyline and powerful
-					performances. Directed by Mohit Suri, the film has become a
-					significant work in the Indian film industry. <br /> <br />
-					The movie explores themes of love, redemption, and
-					sacrifice, capturing the essence of human emotions and
-					relationships. With a gripping narrative and memorable
-					music, "Aawarapan" has garnered a massive fan following both
-					in India and abroad, solidifying Emraan Hashmi's status as a
-					versatile actor.
+					Rachana Jangid is the IT specialist at Kurja, responsible
+					for maintaining the company's technological infrastructure.
+					Her skills in IT support and systems management ensure that
+					the team has the tools they need to operate efficiently and
+					effectively.
 				</p>
 			);
 		},

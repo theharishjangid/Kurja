@@ -90,7 +90,7 @@ export default function DesignTeam() {
 											{active.title}
 										</motion.h3>
 										<motion.p
-											layoutId={`description-${active.description}-${id}`}
+											layoutId={`description-${active.title}-${id}`}
 											className="text-neutral-600 dark:text-neutral-400 text-sm">
 											{active.description}
 										</motion.p>
@@ -150,7 +150,7 @@ export default function DesignTeam() {
 									{card.title}
 								</motion.h3>
 								<motion.p
-									layoutId={`description-${card.description}-${id}`}
+									layoutId={`description-${card.title}-${id}`}
 									className="text-gray-500 dark:text-neutral-400 text-center md:text-left text-sm">
 									{card.description}
 								</motion.p>

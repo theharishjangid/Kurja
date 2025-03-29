@@ -39,7 +39,8 @@ const Contact = () => {
 							rel="noreferrer"
 							className="flex items-center hover:text-red-600 cursor-pointer">
 							<FiMapPin className="mr-2 h-5 w-5 text-red-600" />
-							#51, 3rd Block, D Group Layout Herohalli, Bengaluru - 560091
+							#51, 3rd Block, D Group Layout Herohalli, Bengaluru
+							- 560091
 						</a>
 						<a
 							href="tel:+91 98454 62920"
@@ -49,11 +50,11 @@ const Contact = () => {
 							(+91) 98454 62920
 						</a>
 						<a
-							href="mailto:kurjainteriorspace@gmail.com"
+							href="mailto:kurjainteriors@gmail.com"
 							aria-label="email"
 							className="flex items-center hover:text-red-600 cursor-pointer">
 							<FiMail className="mr-2 h-5 w-5 text-red-600" />
-							kurjainteriorspace@gmail.com
+							kurjainteriors@gmail.com
 						</a>
 						<a
 							href="https://wa.me/919845462920?text=Hello%2C%20I%20am%20interested%20in%20Kurja%20Interiors%20design%20services.%20Can%20you%20please%20provide%20more%20details%3F"

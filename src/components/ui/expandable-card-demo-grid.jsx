@@ -71,7 +71,7 @@ export default function CoreTeam() {
 											{active.title}
 										</motion.h3>
 										<motion.p
-											layoutId={`description-${active.description}-${id}`}
+											layoutId={`description-${active.title}-${id}`}
 											className="text-gray-500 text-sm">
 											{active.description}
 										</motion.p>
@@ -125,7 +125,7 @@ export default function CoreTeam() {
 									{card.title}
 								</motion.h3>
 								<motion.p
-									layoutId={`description-${card.description}-${id}`}
+									layoutId={`description-${card.title}-${id}`}
 									className="text-gray-500 text-center md:text-left text-sm">
 									{card.description}
 								</motion.p>

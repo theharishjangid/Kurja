@@ -55,7 +55,7 @@ const About = () => {
 				creating homes you'll truly love.
 			</h2>
 			<CoreTeam />
-			{/* <DesignTeam /> */}
+			<DesignTeam />
 		</main>
 	);
 };

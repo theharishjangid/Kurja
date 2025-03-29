@@ -120,7 +120,7 @@ export default function ContactForm() {
 						<Label htmlFor="firstname">First name</Label>
 						<Input
 							id="firstname"
-							placeholder="Harish"
+							placeholder="Shree"
 							type="text"
 							value={formData.firstname}
 							onChange={handleChange}
@@ -136,7 +136,7 @@ export default function ContactForm() {
 						<Label htmlFor="lastname">Last name</Label>
 						<Input
 							id="lastname"
-							placeholder="Jangid"
+							placeholder="Shyam"
 							type="text"
 							value={formData.lastname}
 							onChange={handleChange}
@@ -153,7 +153,7 @@ export default function ContactForm() {
 					<Label htmlFor="email">Email Address</Label>
 					<Input
 						id="email"
-						placeholder="youremail@domain.com"
+						placeholder="shreeshyam@kurjainteriors.in"
 						type="email"
 						value={formData.email}
 						onChange={handleChange}
@@ -182,7 +182,7 @@ export default function ContactForm() {
 					<Label htmlFor="message">Message</Label>
 					<TextArea
 						id="message"
-						placeholder="Your query..."
+						placeholder="Describe your needs and let us handle the rest..."
 						value={formData.message}
 						onChange={handleChange}
 						disabled={isSubmitting}
