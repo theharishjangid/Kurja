@@ -87,6 +87,3 @@ We welcome contributions to Kurja! If you're interested in helping out, please:
 
 Kurja is deployed on Vercel. Check out our Next.js deployment documentation for more details.
 
-## License
-
-[Add License Here] - Add the license that this project is under.
