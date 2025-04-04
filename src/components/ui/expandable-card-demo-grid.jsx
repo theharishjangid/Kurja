@@ -5,6 +5,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useOutsideClick } from "@/lib/hooks";
 import { IoClose } from "react-icons/io5";
 import { teamData } from "@/constants";
+import { getInitials } from "@/lib/utils";
 
 export default function CoreTeam() {
 	const cards = teamData.filter((item) => item.type === "core");
@@ -52,14 +53,20 @@ export default function CoreTeam() {
 							className="w-full max-w-[500px]  h-full md:h-fit md:max-h-[90%]  flex flex-col bg-white sm:rounded-3xl overflow-hidden">
 							<motion.div
 								layoutId={`image-${active.title}-${id}`}>
-								<Image
-									priority
-									width={500}
-									height={500}
-									src={active.src}
-									alt={active.title}
-									className="w-full lg:h-80 sm:rounded-tr-lg sm:rounded-tl-lg object-cover"
-								/>
+								{active.src ? (
+									<Image
+										priority
+										width={500}
+										height={500}
+										src={active.src}
+										alt={active.title}
+										className="w-full lg:h-80 sm:rounded-tr-lg sm:rounded-tl-lg object-cover"
+									/>
+								) : (
+									<div className="w-full lg:h-80 sm:rounded-tr-lg sm:rounded-tl-lg bg-gradient-to-r to-orange-300 via-red-400 from-red-600 flex items-center justify-center text-white font-bold text-8xl">
+										{getInitials(active.title)}
+									</div>
+								)}
 							</motion.div>
 
 							<div>
@@ -110,13 +117,19 @@ export default function CoreTeam() {
 						className="p-4 flex flex-col md:bg-neutral-100 hover:shadow-md border border-white hover:border-gray-200 rounded-xl cursor-pointer">
 						<div className="flex gap-4 flex-col  w-full">
 							<motion.div layoutId={`image-${card.title}-${id}`}>
-								<Image
-									width={300}
-									height={300}
-									src={card.src}
-									alt={card.title}
-									className="h-60 w-full  rounded-lg object-cover"
-								/>
+								{card.src ? (
+									<Image
+										width={300}
+										height={300}
+										src={card.src}
+										alt={card.title}
+										className="h-60 w-full rounded-lg object-cover"
+									/>
+								) : (
+									<div className="h-60 w-full rounded-lg bg-gradient-to-r to-orange-300 via-red-400 from-red-600 flex items-center justify-center text-white font-bold text-5xl">
+										{getInitials(card.title)}
+									</div>
+								)}
 							</motion.div>
 							<div className="flex justify-center items-center flex-col">
 								<motion.h3

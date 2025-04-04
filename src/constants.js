@@ -103,7 +103,6 @@ export const teamData = [
 	{
 		description: "Managing Director",
 		title: "Kanta Suthar",
-		src: "/image.png",
 		type: "core",
 		content: () => {
 			return (
