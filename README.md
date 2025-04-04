@@ -1,7 +1,3 @@
-# Kurja - Draup Frontend
-
-Kurja is a core frontend project within the Draup ecosystem, designed to deliver a seamless and engaging user experience. This project is built using Next.js, leveraging its powerful features for performance and developer productivity.
-
 ## Getting Started
 
 These instructions will guide you through setting up the Kurja project on your local machine for development.
