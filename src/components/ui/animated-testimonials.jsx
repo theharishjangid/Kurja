@@ -3,6 +3,7 @@ import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import { getInitials } from "@/lib/utils";
 
 export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
 	const [active, setActive] = useState(0);
@@ -69,14 +70,20 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
 										ease: "easeInOut",
 									}}
 									className="absolute inset-0 origin-bottom">
-									<Image
-										src={testimonial.src}
-										alt={testimonial.name}
-										width={400}
-										height={400}
-										draggable={false}
-										className="h-full w-full rounded-xl object-cover object-center"
-									/>
+									{testimonial.src ? (
+										<Image
+											src={testimonial.src}
+											alt={testimonial.name}
+											width={400}
+											height={400}
+											draggable={false}
+											className="h-full w-full rounded-xl object-cover object-center"
+										/>
+									) : (
+										<div className="h-full w-full rounded-xl bg-gradient-to-r to-orange-300 via-red-400 from-red-600 flex items-center justify-center text-white font-bold text-5xl">
+											{getInitials(testimonial.name)}
+										</div>
+									)}
 								</motion.div>
 							))}
 						</AnimatePresence>

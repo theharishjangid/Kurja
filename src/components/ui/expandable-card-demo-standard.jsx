@@ -5,19 +5,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useOutsideClick } from "@/lib/hooks";
 import { IoClose } from "react-icons/io5";
 import { teamData } from "@/constants";
-
-const getInitials = (name) => {
-	if (!name) return "";
-	const names = name.split(" ");
-	let initials = "";
-	for (let i = 0; i < names.length; i++) {
-		if (names[i].length > 0) {
-			initials += names[i][0].toUpperCase();
-		}
-		if (initials.length >= 2) break;
-	}
-	return initials;
-};
+import { getInitials } from "@/lib/utils";
 
 export default function DesignTeam() {
 	const cards = teamData.filter((item) => item.type !== "core");
